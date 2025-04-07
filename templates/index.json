@@ -572,6 +572,44 @@
         "heading_gradient": ""
       }
     },
+    "howto_kenGkk": {
+      "type": "howto",
+      "blocks": {
+        "step_Tz3pE4": {
+          "type": "step",
+          "settings": {
+            "image": "shopify://shop_images/853987-hd_1920_1080_25fps.gif",
+            "title": "Connectez",
+            "description": "Activez le Bluetooth de votre téléphone et Sélectionnez les écouteurs \"TWS\" dans la liste des appareils disponibles.",
+            "alignment": "left"
+          }
+        },
+        "step_nLCmgz": {
+          "type": "step",
+          "settings": {
+            "image": "shopify://shop_images/0407_1.gif",
+            "title": "Portez",
+            "description": "Insérez-les dans vos oreilles : Ils se connectent automatiquement une fois appairés.",
+            "alignment": "left"
+          }
+        },
+        "step_iqajVr": {
+          "type": "step",
+          "settings": {
+            "image": "shopify://shop_images/0407a.gif",
+            "title": "Profitez",
+            "description": "Soyez prêt à vous reposer",
+            "alignment": "left"
+          }
+        }
+      },
+      "block_order": [
+        "step_Tz3pE4",
+        "step_nLCmgz",
+        "step_iqajVr"
+      ],
+      "settings": {}
+    },
     "faq": {
       "type": "faq",
       "blocks": {
@@ -766,6 +804,7 @@
     "multi_column_QfhYMM",
     "featured_product_yJHJTN",
     "tabs_tikiTy",
+    "howto_kenGkk",
     "faq",
     "1744055170dbb73b23"
   ]
