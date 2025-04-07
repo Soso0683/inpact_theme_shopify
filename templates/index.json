@@ -634,6 +634,62 @@
       ],
       "settings": {}
     },
+    "multiple_images_with_text_PP6hrT": {
+      "type": "multiple-images-with-text",
+      "blocks": {
+        "item_RdjKFz": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/waterproof_cleanup.jpg",
+            "image_rotation_degrees": -2,
+            "subheading": "",
+            "title": "Résiste à l'eau",
+            "content": "<p>Grâce à leur certification IPX7, vos écouteurs SOMNIRIS™ résistent à l'immersion complète jusqu'à 1 mètre pendant 30 minutes. Une protection supérieure contre la transpiration nocturne, les éclaboussures et même une chute accidentelle dans l'eau.</p>",
+            "button_url": "",
+            "button_text": ""
+          }
+        },
+        "item_dqpapV": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/component_cleanup.jpg",
+            "image_rotation_degrees": 1.5,
+            "subheading": "",
+            "title": "Confort inégalé pour toute la nuit",
+            "content": "<p>Avec seulement 5,2 grammes par écouteur et leur forme ergonomique brevetée, vous oublierez que vous les portez. Leur autonomie de 8 heures vous accompagne jusqu'au matin.</p>",
+            "button_url": "",
+            "button_text": ""
+          }
+        },
+        "item_iEAcTm": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/test_cleanup.jpg",
+            "image_rotation_degrees": 0,
+            "subheading": "",
+            "title": "Connectez-vous au sommeil parfait, quel que soit votre appareil.",
+            "content": "<p>Équipés de Bluetooth 5.2, nos écouteurs se connectent instantanément à tous les smartphones. iPhone ou Android, endormez-vous en musique sans souci de compatibilité.</p>",
+            "button_url": "",
+            "button_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_RdjKFz",
+        "item_dqpapV",
+        "item_iEAcTm"
+      ],
+      "settings": {
+        "full_width": true,
+        "images_layout": "stacked",
+        "collage_images_alignment": "middle",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": ""
+      }
+    },
     "faq": {
       "type": "faq",
       "blocks": {
@@ -830,6 +886,7 @@
     "tabs_tikiTy",
     "before_after_image_VLt8TH",
     "howto_kenGkk",
+    "multiple_images_with_text_PP6hrT",
     "faq",
     "1744055170dbb73b23"
   ]
