@@ -383,7 +383,7 @@
         "item_mDgh9g"
       ],
       "custom_css": [
-        ".section-full {padding-top: 0px; padding-bottom: 0px;}"
+        ".section-full {padding-top: 0px; padding-bottom: 30px;}"
       ],
       "settings": {
         "full_width": true,
@@ -572,6 +572,30 @@
         "heading_gradient": ""
       }
     },
+    "before_after_image_VLt8TH": {
+      "type": "before-after-image",
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "before_image": "shopify://shop_images/avant1.gif",
+        "after_image": "shopify://shop_images/apres1.gif",
+        "expand_image": false,
+        "text_position": "start",
+        "before_after_text_position": "top",
+        "before_text": "Normaux",
+        "after_text": "Somniris",
+        "drag_initial_position": 50,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "before_text_color": "#ffffff",
+        "after_text_color": "#ffffff",
+        "drag_cursor_background": "#ffffff",
+        "drag_cursor_color": "#000000"
+      }
+    },
     "howto_kenGkk": {
       "type": "howto",
       "blocks": {
@@ -609,30 +633,6 @@
         "step_iqajVr"
       ],
       "settings": {}
-    },
-    "before_after_image_VLt8TH": {
-      "type": "before-after-image",
-      "settings": {
-        "full_width": true,
-        "subheading": "",
-        "title": "",
-        "content": "",
-        "before_image": "shopify://shop_images/avant1.gif",
-        "after_image": "shopify://shop_images/apres1.gif",
-        "expand_image": false,
-        "text_position": "start",
-        "before_after_text_position": "top",
-        "before_text": "Normaux",
-        "after_text": "Somniris",
-        "drag_initial_position": 50,
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "before_text_color": "#ffffff",
-        "after_text_color": "#ffffff",
-        "drag_cursor_background": "#ffffff",
-        "drag_cursor_color": "#000000"
-      }
     },
     "faq": {
       "type": "faq",
