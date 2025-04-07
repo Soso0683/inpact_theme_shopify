@@ -634,60 +634,59 @@
       ],
       "settings": {}
     },
-    "multiple_images_with_text_PP6hrT": {
-      "type": "multiple-images-with-text",
+    "images_with_text_scrolling_mb8MGV": {
+      "type": "images-with-text-scrolling",
       "blocks": {
-        "item_RdjKFz": {
+        "item_VhVQHE": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/waterproof_cleanup.jpg",
-            "image_rotation_degrees": -2,
-            "subheading": "",
-            "title": "Résiste à l'eau",
-            "content": "<p>Grâce à leur certification IPX7, vos écouteurs SOMNIRIS™ résistent à l'immersion complète jusqu'à 1 mètre pendant 30 minutes. Une protection supérieure contre la transpiration nocturne, les éclaboussures et même une chute accidentelle dans l'eau.</p>",
-            "button_url": "",
-            "button_text": ""
+            "image": "shopify://shop_images/waterproof.jpg",
+            "icon": "none",
+            "icon_width": 24,
+            "title": "",
+            "content": "<p>Grâce à leur certification IPX7, vos écouteurs SOMNIRIS™ résistent à l'immersion complète jusqu'à 1 mètre pendant 30 minutes. Une protection supérieure contre la transpiration nocturne, les éclaboussures et même une chute accidentelle dans l'eau.</p>"
           }
         },
-        "item_dqpapV": {
+        "item_gXKFek": {
           "type": "item",
           "settings": {
             "image": "shopify://shop_images/component_cleanup.jpg",
-            "image_rotation_degrees": 1.5,
-            "subheading": "",
-            "title": "Confort inégalé pour toute la nuit",
-            "content": "<p>Avec seulement 5,2 grammes par écouteur et leur forme ergonomique brevetée, vous oublierez que vous les portez. Leur autonomie de 8 heures vous accompagne jusqu'au matin.</p>",
-            "button_url": "",
-            "button_text": ""
+            "icon": "none",
+            "icon_width": 48,
+            "title": "",
+            "content": "<p>Avec seulement 5,2 grammes par écouteur et leur forme ergonomique brevetée, vous oublierez que vous les portez. Leur autonomie de 8 heures vous accompagne jusqu'au matin.</p>"
           }
         },
-        "item_iEAcTm": {
+        "item_jdC3ft": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/test_cleanup.jpg",
-            "image_rotation_degrees": 0,
-            "subheading": "",
+            "image": "shopify://shop_images/tourne.gif",
+            "icon": "none",
+            "icon_width": 48,
             "title": "Connectez-vous au sommeil parfait",
-            "content": "<p>Équipés de Bluetooth 5.2, nos écouteurs se connectent instantanément à tous les smartphones. iPhone ou Android, endormez-vous en musique sans souci de compatibilité.</p>",
-            "button_url": "",
-            "button_text": ""
+            "content": "<p>Équipés de Bluetooth 5.2, nos écouteurs se connectent instantanément à tous les smartphones. iPhone ou Android, endormez-vous en musique sans souci de compatibilité.</p>"
           }
         }
       },
       "block_order": [
-        "item_RdjKFz",
-        "item_dqpapV",
-        "item_iEAcTm"
+        "item_VhVQHE",
+        "item_gXKFek",
+        "item_jdC3ft"
+      ],
+      "custom_css": [
+        ".section-full {padding-top: 30px; padding-bottom: 0px;}"
       ],
       "settings": {
         "full_width": true,
-        "images_layout": "stacked",
-        "collage_images_alignment": "middle",
+        "stack_on_mobile": false,
+        "show_counter": true,
+        "desktop_image_effect": "reveal",
+        "image_position": "start",
         "background": "",
         "background_gradient": "",
         "text_color": "",
-        "button_background": "",
-        "button_text_color": ""
+        "heading_color": "",
+        "heading_gradient": ""
       }
     },
     "faq": {
@@ -886,7 +885,7 @@
     "tabs_tikiTy",
     "before_after_image_VLt8TH",
     "howto_kenGkk",
-    "multiple_images_with_text_PP6hrT",
+    "images_with_text_scrolling_mb8MGV",
     "faq",
     "1744055170dbb73b23"
   ]
