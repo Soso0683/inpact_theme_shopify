@@ -687,61 +687,6 @@
       ],
       "settings": {}
     },
-    "images_with_text_scrolling_mb8MGV": {
-      "type": "images-with-text-scrolling",
-      "blocks": {
-        "item_VhVQHE": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/waterproof.jpg",
-            "icon": "none",
-            "icon_width": 24,
-            "title": "",
-            "content": "<p>Grâce à leur certification IPX7, vos écouteurs SOMNIRIS™ résistent à l'immersion complète jusqu'à 1 mètre pendant 30 minutes. Une protection supérieure contre la transpiration nocturne, les éclaboussures et même une chute accidentelle dans l'eau.</p>"
-          }
-        },
-        "item_gXKFek": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/component_cleanup.jpg",
-            "icon": "none",
-            "icon_width": 48,
-            "title": "",
-            "content": "<p>Avec seulement 5,2 grammes par écouteur et leur forme ergonomique brevetée, vous oublierez que vous les portez. Leur autonomie de 8 heures vous accompagne jusqu'au matin.</p>"
-          }
-        },
-        "item_jdC3ft": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/tourne.gif",
-            "icon": "none",
-            "icon_width": 48,
-            "title": "",
-            "content": "<p>Équipés de Bluetooth 5.2, nos écouteurs se connectent instantanément à tous les smartphones. iPhone ou Android, endormez-vous en musique sans souci de compatibilité.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "item_VhVQHE",
-        "item_gXKFek",
-        "item_jdC3ft"
-      ],
-      "custom_css": [
-        ".section-full {padding-top: 30px; padding-bottom: 10px;}"
-      ],
-      "settings": {
-        "full_width": true,
-        "stack_on_mobile": false,
-        "show_counter": true,
-        "desktop_image_effect": "reveal",
-        "image_position": "start",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": ""
-      }
-    },
     "faq": {
       "type": "faq",
       "blocks": {
@@ -940,7 +885,6 @@
     "before_after_image_VLt8TH",
     "rich_text_LEHNtk",
     "howto_kenGkk",
-    "images_with_text_scrolling_mb8MGV",
     "faq",
     "1744055170dbb73b23"
   ]
