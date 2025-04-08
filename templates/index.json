@@ -596,6 +596,34 @@
         "drag_cursor_color": "#000000"
       }
     },
+    "rich_text_LEHNtk": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_Bpn7qG": {
+          "type": "heading",
+          "settings": {
+            "text": "Facile à utiliser",
+            "heading_tag": "h3",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_Bpn7qG"
+      ],
+      "custom_css": [
+        ".section-full {padding-top: 0px; padding-bottom: 0px;}"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "howto_kenGkk": {
       "type": "howto",
       "blocks": {
@@ -884,6 +912,7 @@
     "featured_product_yJHJTN",
     "tabs_tikiTy",
     "before_after_image_VLt8TH",
+    "rich_text_LEHNtk",
     "howto_kenGkk",
     "images_with_text_scrolling_mb8MGV",
     "faq",
