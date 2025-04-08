@@ -572,6 +572,31 @@
         "heading_gradient": ""
       }
     },
+    "rich_text_YLikcr": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_Pn7pzx": {
+          "type": "heading",
+          "settings": {
+            "text": "Profitez d'une nuit sans douleur",
+            "heading_tag": "h3",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_Pn7pzx"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "before_after_image_VLt8TH": {
       "type": "before-after-image",
       "settings": {
@@ -911,6 +936,7 @@
     "multi_column_QfhYMM",
     "featured_product_yJHJTN",
     "tabs_tikiTy",
+    "rich_text_YLikcr",
     "before_after_image_VLt8TH",
     "rich_text_LEHNtk",
     "howto_kenGkk",
