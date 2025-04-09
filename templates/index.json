@@ -450,7 +450,7 @@
         "image_anAxwe": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/offre-removebg-preview.png",
+            "image": "shopify://shop_images/Decouvrez_les_ecouteurs_Somniris__1_-removebg-preview.png",
             "alignment": "start",
             "max_width": 500
           }
@@ -503,9 +503,9 @@
         "full_width": true,
         "product": "somniris",
         "desktop_media_width": 55,
-        "desktop_media_layout": "carousel_thumbnails_left",
+        "desktop_media_layout": "grid_highlight",
         "mobile_media_size": "expanded",
-        "mobile_carousel_control": "floating_dots",
+        "mobile_carousel_control": "thumbnails",
         "enable_video_autoplay": true,
         "enable_video_looping": false,
         "enable_image_zoom": true,
