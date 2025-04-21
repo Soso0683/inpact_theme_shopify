@@ -284,96 +284,23 @@
         "lazy": true
       }
     },
-    "multi_column_QfhYMM": {
-      "type": "multi-column",
-      "blocks": {
-        "item_WCXWxj": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/trust5.png",
-            "column_size": "3",
-            "title": "Sophia L.",
-            "heading_tag": "h4",
-            "content": "<p>Enfin des écouteurs qui ne font pas mal aux oreilles ! Je m'endors paisiblement avec mes musiques préférées.</p>",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        },
-        "item_kWq3AG": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/trust4.png",
-            "column_size": "3",
-            "title": "Maria B.",
-            "heading_tag": "h4",
-            "content": "<p>Enfin je peux m'endormir en écoutant mes sons ASMR sans me réveiller à cause d'oreilles douloureuses. Merci Somniris !</p>",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        },
-        "item_TVAEdF": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/trust6.png",
-            "column_size": "3",
-            "title": "Clara V.",
-            "heading_tag": "h4",
-            "content": "<p>Je dors sur le côté et pourtant ces écouteurs restent confortables toute la nuit. Une vraie révolution pour mon sommeil.</p>",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        },
-        "item_9qCENA": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/trust1.png",
-            "column_size": "3",
-            "title": "Caroline D.",
-            "heading_tag": "h4",
-            "content": "<p>Mon mari ronfle comme un tracteur mais grâce aux Somniris, je dors comme un bébé ! Confortables toute la nuit, je n'ai même pas besoin de les retirer. Meilleur investissement pour sauver mon mariage !</p>",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        },
-        "item_mDgh9g": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/trust3.png",
-            "column_size": "3",
-            "title": "Thomas D.",
-            "heading_tag": "h4",
-            "content": "<p>Ces écouteurs sont si confortables que j'oublie les porter. Parfaits pour écouter des sons relaxants avant de dormir.</p>",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        }
-      },
-      "block_order": [
-        "item_WCXWxj",
-        "item_kWq3AG",
-        "item_TVAEdF",
-        "item_9qCENA",
-        "item_mDgh9g"
-      ],
+    "image_with_text_overlay_rCFF8g": {
+      "type": "image-with-text-overlay",
       "custom_css": [
         ".section-full {padding-top: 0px; padding-bottom: 30px;}"
       ],
       "settings": {
         "full_width": true,
-        "stack_on_mobile": false,
-        "gap": "medium",
-        "text_alignment": "center",
-        "subheading": "",
-        "title": "",
-        "content": "",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify://shop_images/image_trust.png",
+        "mobile_image": "shopify://shop_images/image_trust.png",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
       }
     },
     "featured_product_yJHJTN": {
@@ -864,7 +791,7 @@
     "video_mV8FLU",
     "rich_text_xwe6nM",
     "trustpilot_VdhhH4",
-    "multi_column_QfhYMM",
+    "image_with_text_overlay_rCFF8g",
     "featured_product_yJHJTN",
     "tabs_tikiTy",
     "rich_text_YLikcr",
