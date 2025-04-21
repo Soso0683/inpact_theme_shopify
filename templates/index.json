@@ -78,7 +78,7 @@
         "heading_diTcBd"
       ],
       "custom_css": [
-        ".section-full {padding-top: 30px; padding-bottom: 0px;}"
+        ".section-full {padding-top: 0px; padding-bottom: 0px;}"
       ],
       "settings": {
         "full_width": true,
@@ -96,8 +96,8 @@
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
-        "image": "shopify://shop_images/rgeroupe_09e1ad3a-8cd7-467e-b761-ff1c83c46ba3.png",
-        "mobile_image": "shopify://shop_images/rgeroupe_09e1ad3a-8cd7-467e-b761-ff1c83c46ba3.png",
+        "image": "shopify://shop_images/Votre_texte_de_paragraphe_1.png",
+        "mobile_image": "shopify://shop_images/Votre_texte_de_paragraphe_1.png",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
