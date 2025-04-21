@@ -67,8 +67,8 @@
         "heading_diTcBd": {
           "type": "heading",
           "settings": {
-            "text": "Pourquoi choisir les écouteurs Somniris ?",
-            "heading_tag": "h3",
+            "text": "Éliminez votre double menton en 3 Semaines",
+            "heading_tag": "h4",
             "text_color": "",
             "gradient": ""
           }
@@ -103,31 +103,6 @@
         "text_color": "#ffffff",
         "overlay_color": "#000000",
         "overlay_opacity": 0
-      }
-    },
-    "rich_text_MePiam": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_6MfQxL": {
-          "type": "heading",
-          "settings": {
-            "text": "Ils épousent votre sommeil, même sur le côté.",
-            "heading_tag": "h3",
-            "text_color": "",
-            "gradient": ""
-          }
-        }
-      },
-      "block_order": [
-        "heading_6MfQxL"
-      ],
-      "settings": {
-        "full_width": true,
-        "content_width": "small",
-        "text_position": "center",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
       }
     },
     "video_mV8FLU": {
@@ -883,7 +858,6 @@
     "slideshow",
     "rich_text_GVYLDx",
     "image_with_text_overlay_tfpVRi",
-    "rich_text_MePiam",
     "video_mV8FLU",
     "rich_text_xwe6nM",
     "trustpilot_VdhhH4",
