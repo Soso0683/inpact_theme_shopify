@@ -78,7 +78,7 @@
         "heading_diTcBd"
       ],
       "custom_css": [
-        ".section-full {padding-top: 0px; padding-bottom: 0px;}"
+        ".section-full {padding-top: 10px; padding-bottom: 10px;}"
       ],
       "settings": {
         "full_width": true,
@@ -107,13 +107,16 @@
     },
     "video_mV8FLU": {
       "type": "video",
+      "custom_css": [
+        ".section-full {padding-top: 30px; padding-bottom: 10px;}"
+      ],
       "settings": {
         "full_width": true,
         "allow_transparent_header": false,
-        "autoplay": false,
-        "video_size": "auto",
+        "autoplay": true,
+        "video_size": "sm",
+        "video": "shopify://files/videos/vidéo1.mp4",
         "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-        "poster": "shopify://shop_images/oreille_d3cb587c-a60d-4b5f-9844-d1830324a5ab.gif",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
         "overlay_opacity": 0
@@ -125,7 +128,7 @@
         "heading_LWqwLb": {
           "type": "heading",
           "settings": {
-            "text": "Nos clients en parlent le mieux",
+            "text": "Nos clientes en parlent le mieux",
             "heading_tag": "h3",
             "text_color": "",
             "gradient": ""
@@ -266,7 +269,7 @@
         "stars_bg_color": "#00b67a",
         "stars_color": "#ffffff",
         "text_color": "#000000",
-        "background_color": "#d4d3dc",
+        "background_color": "#f0f0f0",
         "background_gradient": "",
         "border_color": "#000000",
         "margin_top": 0,
