@@ -486,6 +486,22 @@
         "heading_gradient": ""
       }
     },
+    "image_with_text_overlay_B6CALq": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify://shop_images/Votre_texte_de_paragraphe_2.png",
+        "mobile_image": "shopify://shop_images/Votre_texte_de_paragraphe_3.png",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
     "rich_text_YLikcr": {
       "type": "rich-text",
       "blocks": {
@@ -794,6 +810,7 @@
     "image_with_text_overlay_rCFF8g",
     "featured_product_yJHJTN",
     "tabs_tikiTy",
+    "image_with_text_overlay_B6CALq",
     "rich_text_YLikcr",
     "before_after_image_VLt8TH",
     "rich_text_LEHNtk",
