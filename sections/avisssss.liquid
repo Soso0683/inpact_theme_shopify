@@ -34,28 +34,32 @@
 </div>
 
 {% stylesheet %}
+
 .simple-testimonial-slider-section {
-  padding: 0; /* Suppression du padding vertical */
-  position: relative;
-  margin: 0; /* Pas de marge */
+  padding: 0;
+  margin: 0;
+  line-height: 0; /* Élimine l'espace supplémentaire causé par line-height */
 }
 
 .simple-testimonial-container {
-  max-width: 100%; /* Utiliser toute la largeur disponible */
-  margin: 0 auto;
-  position: relative;
-  overflow: hidden;
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+  font-size: 0; /* Élimine les espaces blancs entre éléments inline */
 }
 
 .simple-testimonial-track {
   display: flex;
   transition: transform 0.5s ease;
+  margin: 0;
+  padding: 0;
 }
 
 .simple-testimonial-slide {
   min-width: 100%;
   flex: 0 0 100%;
-  padding: 0; /* Suppression du padding dans les slides */
+  padding: 0;
+  margin: 0;
   box-sizing: border-box;
   display: flex;
   justify-content: center;
@@ -64,57 +68,36 @@
 .simple-testimonial-image {
   max-width: 100%;
   height: auto;
-  display: block; /* Élimine l'espace sous l'image */
-  border-radius: 0; /* Suppression des coins arrondis */
-  box-shadow: none; /* Suppression de l'ombre */
-}
-
-.simple-slider-button {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  background-color: rgba(255, 255, 255, 0.7);
+  display: block;
+  margin: 0;
+  padding: 0;
   border: none;
-  border-radius: 50%;
-  width: 40px;
-  height: 40px;
-  font-size: 20px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  cursor: pointer;
-  z-index: 10;
-}
-
-.simple-prev-button {
-  left: 10px;
-}
-
-.simple-next-button {
-  right: 10px;
+  border-radius: 0;
+  box-shadow: none;
 }
 
 .simple-dots-container {
   display: flex;
   justify-content: center;
-  margin-top: 8px; /* Réduction de la marge au-dessus des points */
-  margin-bottom: 8px; /* Ajout d'une petite marge en bas des points */
-  gap: 8px;
-}
-
-.simple-dot-button {
-  width: 8px; /* Points légèrement plus petits */
-  height: 8px;
-  border-radius: 50%;
-  background-color: #ccc;
-  border: none;
+  margin: 5px 0; /* Réduction significative de la marge autour des points */
   padding: 0;
-  cursor: pointer;
+  gap: 5px;
+  line-height: normal; /* Restaure line-height normal uniquement pour les points */
+  font-size: 10px; /* Restaure une taille de police pour cette section */
 }
 
-.simple-dot-button.active {
-  background-color: #333;
+/* Ajoutez ces styles pour contrôler la hauteur de la section */
+.section-no-padding {
+  padding: 0 !important;
+  margin: 0 !important;
 }
+
+/* Si votre thème a des marges/paddings par défaut sur les sections */
+.section {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
 {% endstylesheet %}
 
 {% javascript %}
