@@ -555,6 +555,117 @@
         "overlay_opacity": 13
       }
     },
+    "rich_text_4hHW4w": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_yQFyCG": {
+          "type": "heading",
+          "settings": {
+            "text": "Vraies Clientes,   Vrais Résultats",
+            "heading_tag": "h1",
+            "text_color": "#2e4147",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_yQFyCG"
+      ],
+      "custom_css": [
+        ".section-full {padding-top: 10px; padding-bottom: 10px;}"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "avisssss_heQUyK": {
+      "type": "avisssss",
+      "blocks": {
+        "testimonial_YaheGN": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify://shop_images/testi3-Photoroom.png",
+            "alt_text": "Avis client"
+          }
+        },
+        "testimonial_JwT3Ep": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify://shop_images/testi8-Photoroom.png",
+            "alt_text": "Avis client"
+          }
+        },
+        "testimonial_hqn8eU": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify://shop_images/testi5.jpg",
+            "alt_text": "Avis client"
+          }
+        },
+        "testimonial_X4WL3D": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify://shop_images/testi2.jpg",
+            "alt_text": "Avis client"
+          }
+        },
+        "testimonial_AbD6UH": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify://shop_images/testi10.jpg",
+            "alt_text": "Avis client"
+          }
+        },
+        "testimonial_zLe4WT": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify://shop_images/testi6.jpg",
+            "alt_text": "Avis client"
+          }
+        },
+        "testimonial_x8KMW9": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify://shop_images/testi9.jpg",
+            "alt_text": "Avis client"
+          }
+        },
+        "testimonial_zcMaWk": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify://shop_images/testi7.jpg",
+            "alt_text": "Avis client"
+          }
+        },
+        "testimonial_dLNnk8": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify://shop_images/testi4.jpg",
+            "alt_text": "Avis client"
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_YaheGN",
+        "testimonial_JwT3Ep",
+        "testimonial_hqn8eU",
+        "testimonial_X4WL3D",
+        "testimonial_AbD6UH",
+        "testimonial_zLe4WT",
+        "testimonial_x8KMW9",
+        "testimonial_zcMaWk",
+        "testimonial_dLNnk8"
+      ],
+      "settings": {
+        "hide_arrows": false,
+        "hide_dots": false
+      }
+    },
     "tabs_tikiTy": {
       "type": "tabs",
       "blocks": {
@@ -668,34 +779,6 @@
         "overlay_opacity": 0
       }
     },
-    "rich_text_4hHW4w": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_yQFyCG": {
-          "type": "heading",
-          "settings": {
-            "text": "Vraies Clientes,Vrais Résultats",
-            "heading_tag": "h1",
-            "text_color": "#2e4147",
-            "gradient": ""
-          }
-        }
-      },
-      "block_order": [
-        "heading_yQFyCG"
-      ],
-      "custom_css": [
-        ".section-full {padding-top: 10px; padding-bottom: 10px;}"
-      ],
-      "settings": {
-        "full_width": true,
-        "content_width": "small",
-        "text_position": "center",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
     "rich_text_x4FrWC": {
       "type": "rich-text",
       "blocks": {
@@ -798,89 +881,6 @@
         "text_color": "#ffffff",
         "overlay_color": "#000000",
         "overlay_opacity": 0
-      }
-    },
-    "avisssss_heQUyK": {
-      "type": "avisssss",
-      "blocks": {
-        "testimonial_YaheGN": {
-          "type": "testimonial",
-          "settings": {
-            "image": "shopify://shop_images/testi3-Photoroom.png",
-            "alt_text": "Avis client"
-          }
-        },
-        "testimonial_JwT3Ep": {
-          "type": "testimonial",
-          "settings": {
-            "image": "shopify://shop_images/testi8-Photoroom.png",
-            "alt_text": "Avis client"
-          }
-        },
-        "testimonial_hqn8eU": {
-          "type": "testimonial",
-          "settings": {
-            "image": "shopify://shop_images/testi5.jpg",
-            "alt_text": "Avis client"
-          }
-        },
-        "testimonial_X4WL3D": {
-          "type": "testimonial",
-          "settings": {
-            "image": "shopify://shop_images/testi2.jpg",
-            "alt_text": "Avis client"
-          }
-        },
-        "testimonial_AbD6UH": {
-          "type": "testimonial",
-          "settings": {
-            "image": "shopify://shop_images/testi10.jpg",
-            "alt_text": "Avis client"
-          }
-        },
-        "testimonial_zLe4WT": {
-          "type": "testimonial",
-          "settings": {
-            "image": "shopify://shop_images/testi6.jpg",
-            "alt_text": "Avis client"
-          }
-        },
-        "testimonial_x8KMW9": {
-          "type": "testimonial",
-          "settings": {
-            "image": "shopify://shop_images/testi9.jpg",
-            "alt_text": "Avis client"
-          }
-        },
-        "testimonial_zcMaWk": {
-          "type": "testimonial",
-          "settings": {
-            "image": "shopify://shop_images/testi7.jpg",
-            "alt_text": "Avis client"
-          }
-        },
-        "testimonial_dLNnk8": {
-          "type": "testimonial",
-          "settings": {
-            "image": "shopify://shop_images/testi4.jpg",
-            "alt_text": "Avis client"
-          }
-        }
-      },
-      "block_order": [
-        "testimonial_YaheGN",
-        "testimonial_JwT3Ep",
-        "testimonial_hqn8eU",
-        "testimonial_X4WL3D",
-        "testimonial_AbD6UH",
-        "testimonial_zLe4WT",
-        "testimonial_x8KMW9",
-        "testimonial_zcMaWk",
-        "testimonial_dLNnk8"
-      ],
-      "settings": {
-        "hide_arrows": false,
-        "hide_dots": false
       }
     },
     "faq": {
@@ -1078,15 +1078,15 @@
     "featured_product_yJHJTN",
     "image_with_text_overlay_6iKkWg",
     "image_with_text_overlay_PBVp8d",
+    "rich_text_4hHW4w",
+    "avisssss_heQUyK",
     "tabs_tikiTy",
     "image_with_text_overlay_B6CALq",
     "image_with_text_overlay_g6YaAe",
     "image_with_text_overlay_PzA6Rh",
-    "rich_text_4hHW4w",
     "rich_text_x4FrWC",
     "howto_kenGkk",
     "image_with_text_overlay_naTYMH",
-    "avisssss_heQUyK",
     "faq",
     "1744055170dbb73b23"
   ]
