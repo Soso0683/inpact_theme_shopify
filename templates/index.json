@@ -26,8 +26,8 @@
         "slide-1": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/background1.png",
-            "mobile_image": "shopify://shop_images/background1.png",
+            "image": "shopify://shop_images/ChatGPT_Image_23_avr._2025_00_46_00.png",
+            "mobile_image": "shopify://shop_images/ChatGPT_Image_23_avr._2025_00_46_00.png",
             "content_max_width": 780,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
