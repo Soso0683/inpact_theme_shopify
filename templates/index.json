@@ -639,7 +639,7 @@
         "heading_yQFyCG"
       ],
       "custom_css": [
-        ".section-full {padding-top: 10px; padding-bottom: 10px;}"
+        ".section-full {padding-top: 10px; padding-bottom: 20px;}"
       ],
       "settings": {
         "full_width": true,
