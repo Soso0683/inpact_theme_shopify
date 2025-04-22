@@ -1,232 +1,211 @@
 {% comment %}
-  testimonial-images-carousel.liquid
-  Un snippet pour faire défiler des images d'avis clients existantes
-  
-  Utilisation:
-  1. Créez ce fichier dans snippets/testimonial-images-carousel.liquid
-  2. Incluez-le dans votre template avec {% render 'testimonial-images-carousel' %}
-  3. Ajoutez vos images dans le répertoire Assets ou dans une collection
+  simple-testimonial-slider.liquid
+  Carrousel d'avis clients simplifié et robuste
 {% endcomment %}
 
-<div class="testimonial-images-carousel-container">
-  <div class="testimonial-images-carousel" id="testimonial-images-carousel">
-    {% for block in section.blocks %}
-      {% if block.type == 'testimonial_image' %}
-        <div class="testimonial-image-slide" {{ block.shopify_attributes }}>
-          {{ block.settings.testimonial_image | image_url: width: 800 | image_tag: 
-             loading: 'lazy',
-             class: 'testimonial-image',
-             alt: block.settings.testimonial_alt }}
-        </div>
-      {% endif %}
-    {% endfor %}
-  </div>
-  
-  <div class="testimonial-images-navigation">
-    <button class="nav-button prev-button" aria-label="Avis précédent">&#10094;</button>
-    <div class="testimonial-images-indicators">
+<div class="simple-testimonial-slider-section">
+  <div class="simple-testimonial-container">
+    <div class="simple-testimonial-track" id="testimonial-track">
       {% for block in section.blocks %}
-        {% if block.type == 'testimonial_image' %}
-          <span class="indicator{% if forloop.first %} active{% endif %}" data-index="{{ forloop.index0 }}"></span>
-        {% endif %}
+        <div class="simple-testimonial-slide" {{ block.shopify_attributes }}>
+          <img 
+            src="{{ block.settings.image | img_url: '800x' }}" 
+            alt="{{ block.settings.alt_text | escape }}" 
+            loading="lazy"
+            class="simple-testimonial-image"
+          >
+        </div>
       {% endfor %}
     </div>
-    <button class="nav-button next-button" aria-label="Avis suivant">&#10095;</button>
+    
+    <button type="button" class="simple-slider-button simple-prev-button" aria-label="Précédent">
+      &larr;
+    </button>
+    <button type="button" class="simple-slider-button simple-next-button" aria-label="Suivant">
+      &rarr;
+    </button>
+    
+    <div class="simple-dots-container">
+      {% for block in section.blocks %}
+        <button type="button" class="simple-dot-button{% if forloop.first %} active{% endif %}" data-index="{{ forloop.index0 }}" aria-label="Aller à l'avis {{ forloop.index }}"></button>
+      {% endfor %}
+    </div>
   </div>
 </div>
 
-<style>
-.testimonial-images-carousel-container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 20px;
+{% stylesheet %}
+.simple-testimonial-slider-section {
+  padding: 20px 0;
   position: relative;
 }
 
-.testimonial-images-carousel {
-  display: flex;
+.simple-testimonial-container {
+  max-width: 800px;
+  margin: 0 auto;
+  position: relative;
   overflow: hidden;
-  scroll-behavior: smooth;
-  background-color: #f8f9fa;
-  border-radius: 10px;
-  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
 }
 
-.testimonial-image-slide {
+.simple-testimonial-track {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+
+.simple-testimonial-slide {
   min-width: 100%;
+  flex: 0 0 100%;
+  padding: 10px;
+  box-sizing: border-box;
   display: flex;
   justify-content: center;
-  align-items: center;
-  padding: 20px;
-  box-sizing: border-box;
 }
 
-.testimonial-image {
+.simple-testimonial-image {
   max-width: 100%;
   height: auto;
   border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
 }
 
-.testimonial-images-navigation {
+.simple-slider-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(255, 255, 255, 0.7);
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  font-size: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 20px;
-}
-
-.nav-button {
-  background: none;
-  border: none;
-  font-size: 24px;
   cursor: pointer;
-  color: #333;
-  margin: 0 15px;
-  padding: 5px 10px;
+  z-index: 10;
 }
 
-.nav-button:hover {
-  color: #0066cc;
+.simple-prev-button {
+  left: 10px;
 }
 
-.testimonial-images-indicators {
+.simple-next-button {
+  right: 10px;
+}
+
+.simple-dots-container {
   display: flex;
+  justify-content: center;
+  margin-top: 15px;
   gap: 8px;
 }
 
-.indicator {
-  width: 12px;
-  height: 12px;
+.simple-dot-button {
+  width: 10px;
+  height: 10px;
   border-radius: 50%;
   background-color: #ccc;
+  border: none;
+  padding: 0;
   cursor: pointer;
-  transition: background-color 0.3s ease;
 }
 
-.indicator.active {
-  background-color: #0066cc;
+.simple-dot-button.active {
+  background-color: #333;
 }
+{% endstylesheet %}
 
-@media (max-width: 768px) {
-  .testimonial-image-slide {
-    padding: 10px;
+{% javascript %}
+document.addEventListener('DOMContentLoaded', function() {
+  const track = document.getElementById('testimonial-track');
+  if (!track) return;
+  
+  const slides = track.querySelectorAll('.simple-testimonial-slide');
+  const prevButton = document.querySelector('.simple-prev-button');
+  const nextButton = document.querySelector('.simple-next-button');
+  const dots = document.querySelectorAll('.simple-dot-button');
+  let currentIndex = 0;
+  
+  // Initialize
+  updateSlider();
+  
+  // Navigation buttons
+  if (prevButton) {
+    prevButton.addEventListener('click', function() {
+      currentIndex = (currentIndex - 1 + slides.length) % slides.length;
+      updateSlider();
+    });
   }
-}
-</style>
-
-<script>
-  document.addEventListener('DOMContentLoaded', function() {
-    const carousel = document.getElementById('testimonial-images-carousel');
-    const slides = carousel.querySelectorAll('.testimonial-image-slide');
-    const indicators = document.querySelectorAll('.indicator');
-    const prevButton = document.querySelector('.prev-button');
-    const nextButton = document.querySelector('.next-button');
-    let currentIndex = 0;
-    const totalSlides = slides.length;
-    
-    function goToSlide(index) {
-      if (index < 0) {
-        index = totalSlides - 1;
-      } else if (index >= totalSlides) {
-        index = 0;
-      }
-      
-      carousel.scrollTo({
-        left: slides[index].offsetLeft,
-        behavior: 'smooth'
-      });
-      
-      // Update active indicator
-      indicators.forEach((indicator, i) => {
-        indicator.classList.toggle('active', i === index);
-      });
-      
-      currentIndex = index;
-    }
-    
-    // Navigation buttons
-    prevButton.addEventListener('click', () => {
-      goToSlide(currentIndex - 1);
+  
+  if (nextButton) {
+    nextButton.addEventListener('click', function() {
+      currentIndex = (currentIndex + 1) % slides.length;
+      updateSlider();
     });
-    
-    nextButton.addEventListener('click', () => {
-      goToSlide(currentIndex + 1);
+  }
+  
+  // Dot navigation
+  dots.forEach(function(dot) {
+    dot.addEventListener('click', function() {
+      currentIndex = parseInt(this.getAttribute('data-index'));
+      updateSlider();
     });
-    
-    // Indicator dots
-    indicators.forEach((indicator, index) => {
-      indicator.addEventListener('click', () => {
-        goToSlide(index);
-      });
-    });
-
-    // Optional: Touch swipe support for mobile
-    let touchStartX = 0;
-    let touchEndX = 0;
-    
-    carousel.addEventListener('touchstart', (e) => {
-      touchStartX = e.changedTouches[0].screenX;
-    });
-    
-    carousel.addEventListener('touchend', (e) => {
-      touchEndX = e.changedTouches[0].screenX;
-      handleSwipe();
-    });
-    
-    function handleSwipe() {
-      if (touchEndX < touchStartX) {
-        // Swipe left
-        goToSlide(currentIndex + 1);
-      } else if (touchEndX > touchStartX) {
-        // Swipe right
-        goToSlide(currentIndex - 1);
-      }
-    }
   });
-</script>
+  
+  // Update slider position and active dot
+  function updateSlider() {
+    // Move track
+    track.style.transform = `translateX(-${currentIndex * 100}%)`;
+    
+    // Update dots
+    dots.forEach(function(dot, index) {
+      dot.classList.toggle('active', index === currentIndex);
+    });
+  }
+  
+  // Optional: Touch swipe support for mobile
+  let touchStartX = 0;
+  
+  track.addEventListener('touchstart', function(e) {
+    touchStartX = e.changedTouches[0].clientX;
+  }, {passive: true});
+  
+  track.addEventListener('touchend', function(e) {
+    const touchEndX = e.changedTouches[0].clientX;
+    const diff = touchStartX - touchEndX;
+    
+    if (Math.abs(diff) > 50) { // Minimum swipe distance
+      if (diff > 0) {
+        // Swipe left - go to next
+        currentIndex = (currentIndex + 1) % slides.length;
+      } else {
+        // Swipe right - go to previous
+        currentIndex = (currentIndex - 1 + slides.length) % slides.length;
+      }
+      updateSlider();
+    }
+  }, {passive: true});
+});
+{% endjavascript %}
 
 {% schema %}
 {
-  "name": "Carrousel d'avis",
+  "name": "Carrousel d'avis simple",
   "tag": "section",
-  "class": "testimonial-images-section",
-  "settings": [
-    {
-      "type": "text",
-      "id": "title",
-      "label": "Titre de la section",
-      "default": "Nos avis clients"
-    },
-    {
-      "type": "checkbox",
-      "id": "enable_autoplay",
-      "label": "Activer le défilement automatique",
-      "default": false
-    },
-    {
-      "type": "range",
-      "id": "autoplay_speed",
-      "min": 3,
-      "max": 10,
-      "step": 1,
-      "unit": "s",
-      "label": "Durée entre chaque défilement",
-      "default": 5
-    }
-  ],
+  "class": "section",
+  "settings": [],
   "blocks": [
     {
-      "type": "testimonial_image",
-      "name": "Image d'avis",
-      "limit": 20,
+      "type": "testimonial",
+      "name": "Avis client",
       "settings": [
         {
           "type": "image_picker",
-          "id": "testimonial_image",
+          "id": "image",
           "label": "Image d'avis"
         },
         {
           "type": "text",
-          "id": "testimonial_alt",
+          "id": "alt_text",
           "label": "Texte alternatif",
           "default": "Avis client"
         }
@@ -235,16 +214,16 @@
   ],
   "presets": [
     {
-      "name": "Carrousel d'avis clients",
+      "name": "Carrousel d'avis simple",
       "blocks": [
         {
-          "type": "testimonial_image"
+          "type": "testimonial"
         },
         {
-          "type": "testimonial_image"
+          "type": "testimonial"
         },
         {
-          "type": "testimonial_image"
+          "type": "testimonial"
         }
       ]
     }
