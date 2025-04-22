@@ -1,76 +1,88 @@
 {% comment %}
-  simple-testimonial-slider.liquid
-  Carrousel d'avis clients compact avec espacement réduit
+  testimonial-slider-final.liquid
+  Un carrousel d'avis clients sans espaces superflus
 {% endcomment %}
 
-<div class="simple-testimonial-slider-section">
-  <div class="simple-testimonial-container">
-    <div class="simple-testimonial-track" id="testimonial-track">
-      {% for block in section.blocks %}
-        <div class="simple-testimonial-slide" {{ block.shopify_attributes }}>
+<style>
+  #shopify-section-{{ section.id }} {
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+</style>
+
+<div class="testimonial-carousel">
+  <div class="testimonial-track" id="testimonial-track-{{ section.id }}">
+    {% for block in section.blocks %}
+      {% if block.type == 'testimonial' %}
+        <div class="testimonial-slide" {{ block.shopify_attributes }}>
           <img 
             src="{{ block.settings.image | img_url: '800x' }}" 
             alt="{{ block.settings.alt_text | escape }}" 
             loading="lazy"
-            class="simple-testimonial-image"
+            class="testimonial-image"
           >
         </div>
-      {% endfor %}
-    </div>
-    
-    <button type="button" class="simple-slider-button simple-prev-button" aria-label="Précédent">
-      &larr;
-    </button>
-    <button type="button" class="simple-slider-button simple-next-button" aria-label="Suivant">
-      &rarr;
-    </button>
-    
-    <div class="simple-dots-container">
-      {% for block in section.blocks %}
-        <button type="button" class="simple-dot-button{% if forloop.first %} active{% endif %}" data-index="{{ forloop.index0 }}" aria-label="Aller à l'avis {{ forloop.index }}"></button>
-      {% endfor %}
-    </div>
+      {% endif %}
+    {% endfor %}
   </div>
+  
+  {% unless section.settings.hide_arrows %}
+    <button type="button" class="nav-arrow prev-arrow" aria-label="Précédent">
+      &#10094;
+    </button>
+    <button type="button" class="nav-arrow next-arrow" aria-label="Suivant">
+      &#10095;
+    </button>
+  {% endunless %}
+  
+  {% unless section.settings.hide_dots %}
+    <div class="dots-container">
+      {% for block in section.blocks %}
+        {% if block.type == 'testimonial' %}
+          <button type="button" class="dot{% if forloop.first %} active{% endif %}" data-index="{{ forloop.index0 }}" aria-label="Aller à l'avis {{ forloop.index }}"></button>
+        {% endif %}
+      {% endfor %}
+    </div>
+  {% endunless %}
 </div>
 
-{% stylesheet %}
-.simple-testimonial-slider-section {
-  padding: 0; /* Suppression du padding vertical */
+<style>
+.testimonial-carousel {
   position: relative;
-  margin: 0; /* Pas de marge */
-}
-
-.simple-testimonial-container {
-  max-width: 100%; /* Utiliser toute la largeur disponible */
-  margin: 0 !important;
-  position: relative;
+  margin: 0;
+  padding: 0;
   overflow: hidden;
+  display: block;
+  font-size: 0;
+  line-height: 0;
 }
 
-.simple-testimonial-track {
+.testimonial-track {
   display: flex;
-  transition: transform 0.5s ease;
+  transition: transform 0.4s ease;
+  margin: 0;
+  padding: 0;
 }
 
-.simple-testimonial-slide {
+.testimonial-slide {
   min-width: 100%;
   flex: 0 0 100%;
-  padding: 0; /* Suppression du padding dans les slides */
-  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
   display: flex;
   justify-content: center;
-  padding: 0 !important;
 }
 
-.simple-testimonial-image {
+.testimonial-image {
   max-width: 100%;
+  width: 100%;
   height: auto;
-  display: block; /* Élimine l'espace sous l'image */
-  border-radius: 0; /* Suppression des coins arrondis */
-  box-shadow: none; /* Suppression de l'ombre */
+  margin: 0;
+  padding: 0;
+  display: block;
 }
 
-.simple-slider-button {
+.nav-arrow {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
@@ -84,27 +96,29 @@
   justify-content: center;
   align-items: center;
   cursor: pointer;
-  z-index: 10;
+  z-index: 5;
 }
 
-.simple-prev-button {
+.prev-arrow {
   left: 10px;
 }
 
-.simple-next-button {
+.next-arrow {
   right: 10px;
 }
 
-.simple-dots-container {
+.dots-container {
   display: flex;
   justify-content: center;
-  margin-top: 5px !important;
-  margin-bottom: 5px !important;
-  gap: 8px;
+  padding: 5px 0;
+  gap: 6px;
+  margin: 0;
+  line-height: normal;
+  font-size: 0;
 }
 
-.simple-dot-button {
-  width: 8px; /* Points légèrement plus petits */
+.dot {
+  width: 8px;
   height: 8px;
   border-radius: 50%;
   background-color: #ccc;
@@ -113,91 +127,97 @@
   cursor: pointer;
 }
 
-.simple-dot-button.active {
+.dot.active {
   background-color: #333;
 }
+</style>
 
-
-{% endstylesheet %}
-
-{% javascript %}
-document.addEventListener('DOMContentLoaded', function() {
-  const track = document.getElementById('testimonial-track');
-  if (!track) return;
-  
-  const slides = track.querySelectorAll('.simple-testimonial-slide');
-  const prevButton = document.querySelector('.simple-prev-button');
-  const nextButton = document.querySelector('.simple-next-button');
-  const dots = document.querySelectorAll('.simple-dot-button');
-  let currentIndex = 0;
-  
-  // Initialize
-  updateSlider();
-  
-  // Navigation buttons
-  if (prevButton) {
-    prevButton.addEventListener('click', function() {
-      currentIndex = (currentIndex - 1 + slides.length) % slides.length;
-      updateSlider();
-    });
-  }
-  
-  if (nextButton) {
-    nextButton.addEventListener('click', function() {
-      currentIndex = (currentIndex + 1) % slides.length;
-      updateSlider();
-    });
-  }
-  
-  // Dot navigation
-  dots.forEach(function(dot) {
-    dot.addEventListener('click', function() {
-      currentIndex = parseInt(this.getAttribute('data-index'));
-      updateSlider();
-    });
-  });
-  
-  // Update slider position and active dot
-  function updateSlider() {
-    // Move track
-    track.style.transform = `translateX(-${currentIndex * 100}%)`;
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    var trackId = 'testimonial-track-{{ section.id }}';
+    var track = document.getElementById(trackId);
+    if (!track) return;
     
-    // Update dots
-    dots.forEach(function(dot, index) {
-      dot.classList.toggle('active', index === currentIndex);
-    });
-  }
-  
-  // Optional: Touch swipe support for mobile
-  let touchStartX = 0;
-  
-  track.addEventListener('touchstart', function(e) {
-    touchStartX = e.changedTouches[0].clientX;
-  }, {passive: true});
-  
-  track.addEventListener('touchend', function(e) {
-    const touchEndX = e.changedTouches[0].clientX;
-    const diff = touchStartX - touchEndX;
+    var carouselParent = track.closest('.testimonial-carousel');
+    var slides = track.querySelectorAll('.testimonial-slide');
+    var prevButton = carouselParent.querySelector('.prev-arrow');
+    var nextButton = carouselParent.querySelector('.next-arrow');
+    var dots = carouselParent.querySelectorAll('.dot');
+    var currentIndex = 0;
     
-    if (Math.abs(diff) > 50) { // Minimum swipe distance
-      if (diff > 0) {
-        // Swipe left - go to next
-        currentIndex = (currentIndex + 1) % slides.length;
-      } else {
-        // Swipe right - go to previous
-        currentIndex = (currentIndex - 1 + slides.length) % slides.length;
+    function goToSlide(index) {
+      if (index < 0) {
+        index = slides.length - 1;
+      } else if (index >= slides.length) {
+        index = 0;
       }
-      updateSlider();
+      
+      track.style.transform = 'translateX(-' + (index * 100) + '%)';
+      
+      // Update active dot
+      dots.forEach(function(dot, i) {
+        if (i === index) {
+          dot.classList.add('active');
+        } else {
+          dot.classList.remove('active');
+        }
+      });
+      
+      currentIndex = index;
     }
-  }, {passive: true});
-});
-{% endjavascript %}
+    
+    // Set up navigation buttons
+    if (prevButton) {
+      prevButton.addEventListener('click', function() {
+        goToSlide(currentIndex - 1);
+      });
+    }
+    
+    if (nextButton) {
+      nextButton.addEventListener('click', function() {
+        goToSlide(currentIndex + 1);
+      });
+    }
+    
+    // Set up dot navigation
+    dots.forEach(function(dot, index) {
+      dot.addEventListener('click', function() {
+        goToSlide(index);
+      });
+    });
+    
+    // Touch swipe support
+    var touchStartX = 0;
+    var touchEndX = 0;
+    
+    track.addEventListener('touchstart', function(e) {
+      touchStartX = e.changedTouches[0].screenX;
+    }, {passive: true});
+    
+    track.addEventListener('touchend', function(e) {
+      touchEndX = e.changedTouches[0].screenX;
+      handleSwipe();
+    }, {passive: true});
+    
+    function handleSwipe() {
+      if (touchEndX < touchStartX) {
+        // Swipe left (next)
+        goToSlide(currentIndex + 1);
+      } else if (touchEndX > touchStartX) {
+        // Swipe right (previous)
+        goToSlide(currentIndex - 1);
+      }
+    }
+    
+    // Initialize carousel
+    goToSlide(0);
+  });
+</script>
 
 {% schema %}
 {
-  "name": "Carrousel d'avis compact",
+  "name": "Carrousel d'avis",
   "tag": "section",
-  "class": "section section-no-padding",
   "settings": [
     {
       "type": "checkbox",
@@ -233,7 +253,7 @@ document.addEventListener('DOMContentLoaded', function() {
   ],
   "presets": [
     {
-      "name": "Carrousel d'avis compact",
+      "name": "Carrousel d'avis",
       "blocks": [
         {
           "type": "testimonial"
