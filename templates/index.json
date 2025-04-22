@@ -891,7 +891,7 @@
         "richtext_Be9g66": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Rapportent <strong>une peau raffermie </strong>et <strong>liftée </strong>sur le long terme<br/><br/></p>"
+            "content": "<h5>Rapportent <strong>une peau raffermie </strong>et <strong>liftée </strong>sur le long terme</h5>"
           }
         },
         "heading_hzJdcR": {
@@ -906,7 +906,7 @@
         "richtext_nXmndJ": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Remarquent une <strong>réduction significative </strong>de leur double menton après 21 jours</p>"
+            "content": "<h5>Remarquent une <strong>réduction significative </strong>de leur double menton après 21 jours</h5>"
           }
         }
       },
