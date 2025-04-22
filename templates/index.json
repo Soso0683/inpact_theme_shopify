@@ -704,6 +704,9 @@
         "heading_rK97y4",
         "heading_gxBiDc"
       ],
+      "custom_css": [
+        ".section-full {padding-top: 10px; padding-bottom: 10px;}"
+      ],
       "settings": {
         "full_width": true,
         "content_width": "small",
