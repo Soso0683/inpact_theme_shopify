@@ -552,6 +552,40 @@
         "heading_gradient": ""
       }
     },
+    "image_with_text_overlay_PBVp8d": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "subheading_XK4a8M": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "heading_wAUwew": {
+          "type": "heading",
+          "settings": {
+            "text": "La Meilleure façon de Sculpter votre visage",
+            "heading_tag": "h3"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_XK4a8M",
+        "heading_wAUwew"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify://shop_images/imagesimple.jpg",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 13
+      }
+    },
     "image_with_text_overlay_B6CALq": {
       "type": "image-with-text-overlay",
       "settings": {
@@ -565,7 +599,22 @@
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
-        "overlay_opacity": 5
+        "overlay_opacity": 2
+      }
+    },
+    "image_with_text_overlay_6iKkWg": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify://shop_images/dermato.png",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
       }
     },
     "rich_text_YLikcr": {
@@ -876,7 +925,9 @@
     "slideshow_XzH4Fy",
     "featured_product_yJHJTN",
     "tabs_tikiTy",
+    "image_with_text_overlay_PBVp8d",
     "image_with_text_overlay_B6CALq",
+    "image_with_text_overlay_6iKkWg",
     "rich_text_YLikcr",
     "before_after_image_VLt8TH",
     "rich_text_LEHNtk",
