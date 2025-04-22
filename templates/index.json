@@ -650,38 +650,54 @@
     "avisssss_heQUyK": {
       "type": "avisssss",
       "blocks": {
-        "testimonial_image_EJBqhJ": {
-          "type": "testimonial_image",
+        "testimonial_YaheGN": {
+          "type": "testimonial",
           "settings": {
-            "testimonial_image": "shopify://shop_images/testi8-Photoroom.png",
-            "testimonial_alt": "Avis client"
+            "image": "shopify://shop_images/testi3-Photoroom.png",
+            "alt_text": "Avis client"
           }
         },
-        "testimonial_image_UQHpgt": {
-          "type": "testimonial_image",
+        "testimonial_JwT3Ep": {
+          "type": "testimonial",
           "settings": {
-            "testimonial_image": "shopify://shop_images/testi3-Photoroom.png",
-            "testimonial_alt": "Avis client"
+            "image": "shopify://shop_images/testi8-Photoroom.png",
+            "alt_text": "Avis client"
           }
         },
-        "testimonial_image_XBCyba": {
-          "type": "testimonial_image",
+        "testimonial_hqn8eU": {
+          "type": "testimonial",
           "settings": {
-            "testimonial_image": "shopify://shop_images/testi6.jpg",
-            "testimonial_alt": "Avis client"
+            "alt_text": "Avis client"
+          }
+        },
+        "testimonial_X4WL3D": {
+          "type": "testimonial",
+          "settings": {
+            "alt_text": "Avis client"
+          }
+        },
+        "testimonial_AbD6UH": {
+          "type": "testimonial",
+          "settings": {
+            "alt_text": "Avis client"
+          }
+        },
+        "testimonial_zLe4WT": {
+          "type": "testimonial",
+          "settings": {
+            "alt_text": "Avis client"
           }
         }
       },
       "block_order": [
-        "testimonial_image_EJBqhJ",
-        "testimonial_image_UQHpgt",
-        "testimonial_image_XBCyba"
+        "testimonial_YaheGN",
+        "testimonial_JwT3Ep",
+        "testimonial_hqn8eU",
+        "testimonial_X4WL3D",
+        "testimonial_AbD6UH",
+        "testimonial_zLe4WT"
       ],
-      "settings": {
-        "title": "Nos avis clients",
-        "enable_autoplay": false,
-        "autoplay_speed": 5
-      }
+      "settings": {}
     },
     "howto_kenGkk": {
       "type": "howto",
