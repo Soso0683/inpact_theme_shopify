@@ -668,6 +668,34 @@
         "overlay_opacity": 0
       }
     },
+    "rich_text_4hHW4w": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_yQFyCG": {
+          "type": "heading",
+          "settings": {
+            "text": "Vraies Clientes,Vrais Résultats",
+            "heading_tag": "h1",
+            "text_color": "#2e4147",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_yQFyCG"
+      ],
+      "custom_css": [
+        ".section-full {padding-top: 10px; padding-bottom: 10px;}"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "rich_text_x4FrWC": {
       "type": "rich-text",
       "blocks": {
@@ -1054,6 +1082,7 @@
     "image_with_text_overlay_B6CALq",
     "image_with_text_overlay_g6YaAe",
     "image_with_text_overlay_PzA6Rh",
+    "rich_text_4hHW4w",
     "rich_text_x4FrWC",
     "howto_kenGkk",
     "image_with_text_overlay_naTYMH",
