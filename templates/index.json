@@ -602,10 +602,25 @@
         "overlay_opacity": 2
       }
     },
-    "image_with_text_overlay_6iKkWg": {
+    "image_with_text_overlay_g6YaAe": {
       "type": "image-with-text-overlay",
       "settings": {
         "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify://shop_images/imagesimple2.png",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "image_with_text_overlay_6iKkWg": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "full_width": false,
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
@@ -632,14 +647,14 @@
         "overlay_opacity": 0
       }
     },
-    "image_with_text_overlay_g6YaAe": {
+    "image_with_text_overlay_naTYMH": {
       "type": "image-with-text-overlay",
       "settings": {
         "full_width": true,
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
-        "image": "shopify://shop_images/imagesimple2.png",
+        "image": "shopify://shop_images/loversv1.png",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
@@ -725,7 +740,10 @@
         "testimonial_zcMaWk",
         "testimonial_dLNnk8"
       ],
-      "settings": {}
+      "settings": {
+        "hide_arrows": false,
+        "hide_dots": false
+      }
     },
     "howto_kenGkk": {
       "type": "howto",
@@ -960,9 +978,10 @@
     "tabs_tikiTy",
     "image_with_text_overlay_PBVp8d",
     "image_with_text_overlay_B6CALq",
+    "image_with_text_overlay_g6YaAe",
     "image_with_text_overlay_6iKkWg",
     "image_with_text_overlay_PzA6Rh",
-    "image_with_text_overlay_g6YaAe",
+    "image_with_text_overlay_naTYMH",
     "avisssss_heQUyK",
     "howto_kenGkk",
     "faq",
