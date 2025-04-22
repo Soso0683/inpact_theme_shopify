@@ -667,24 +667,49 @@
         "testimonial_hqn8eU": {
           "type": "testimonial",
           "settings": {
+            "image": "shopify://shop_images/testi5.jpg",
             "alt_text": "Avis client"
           }
         },
         "testimonial_X4WL3D": {
           "type": "testimonial",
           "settings": {
+            "image": "shopify://shop_images/testi2.jpg",
             "alt_text": "Avis client"
           }
         },
         "testimonial_AbD6UH": {
           "type": "testimonial",
           "settings": {
+            "image": "shopify://shop_images/testi10.jpg",
             "alt_text": "Avis client"
           }
         },
         "testimonial_zLe4WT": {
           "type": "testimonial",
           "settings": {
+            "image": "shopify://shop_images/testi6.jpg",
+            "alt_text": "Avis client"
+          }
+        },
+        "testimonial_x8KMW9": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify://shop_images/testi9.jpg",
+            "alt_text": "Avis client"
+          }
+        },
+        "testimonial_zcMaWk": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify://shop_images/testi7.jpg",
+            "alt_text": "Avis client"
+          }
+        },
+        "testimonial_dLNnk8": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify://shop_images/testi4.jpg",
             "alt_text": "Avis client"
           }
         }
@@ -695,7 +720,10 @@
         "testimonial_hqn8eU",
         "testimonial_X4WL3D",
         "testimonial_AbD6UH",
-        "testimonial_zLe4WT"
+        "testimonial_zLe4WT",
+        "testimonial_x8KMW9",
+        "testimonial_zcMaWk",
+        "testimonial_dLNnk8"
       ],
       "settings": {}
     },
