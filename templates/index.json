@@ -361,7 +361,7 @@
         "full_width": true,
         "allow_transparent_header": true,
         "image_size": "auto",
-        "controls_type": "dots",
+        "controls_type": "numbers",
         "transition_type": "fade_with_text",
         "autoplay": false,
         "cycle_speed": 6,
@@ -565,7 +565,7 @@
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
-        "overlay_opacity": 0
+        "overlay_opacity": 5
       }
     },
     "rich_text_YLikcr": {
