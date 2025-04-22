@@ -1,6 +1,6 @@
 {% comment %}
   simple-testimonial-slider.liquid
-  Carrousel d'avis clients simplifié et robuste
+  Carrousel d'avis clients compact avec espacement réduit
 {% endcomment %}
 
 <div class="simple-testimonial-slider-section">
@@ -35,12 +35,13 @@
 
 {% stylesheet %}
 .simple-testimonial-slider-section {
-  padding: 20px 0;
+  padding: 0; /* Suppression du padding vertical */
   position: relative;
+  margin: 0; /* Pas de marge */
 }
 
 .simple-testimonial-container {
-  max-width: 800px;
+  max-width: 100%; /* Utiliser toute la largeur disponible */
   margin: 0 auto;
   position: relative;
   overflow: hidden;
@@ -54,7 +55,7 @@
 .simple-testimonial-slide {
   min-width: 100%;
   flex: 0 0 100%;
-  padding: 10px;
+  padding: 0; /* Suppression du padding dans les slides */
   box-sizing: border-box;
   display: flex;
   justify-content: center;
@@ -63,8 +64,9 @@
 .simple-testimonial-image {
   max-width: 100%;
   height: auto;
-  border-radius: 8px;
-  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  display: block; /* Élimine l'espace sous l'image */
+  border-radius: 0; /* Suppression des coins arrondis */
+  box-shadow: none; /* Suppression de l'ombre */
 }
 
 .simple-slider-button {
@@ -95,13 +97,14 @@
 .simple-dots-container {
   display: flex;
   justify-content: center;
-  margin-top: 15px;
+  margin-top: 8px; /* Réduction de la marge au-dessus des points */
+  margin-bottom: 8px; /* Ajout d'une petite marge en bas des points */
   gap: 8px;
 }
 
 .simple-dot-button {
-  width: 10px;
-  height: 10px;
+  width: 8px; /* Points légèrement plus petits */
+  height: 8px;
   border-radius: 50%;
   background-color: #ccc;
   border: none;
@@ -189,10 +192,23 @@ document.addEventListener('DOMContentLoaded', function() {
 
 {% schema %}
 {
-  "name": "Carrousel d'avis simple",
+  "name": "Carrousel d'avis compact",
   "tag": "section",
-  "class": "section",
-  "settings": [],
+  "class": "section section-no-padding",
+  "settings": [
+    {
+      "type": "checkbox",
+      "id": "hide_arrows",
+      "label": "Masquer les flèches",
+      "default": false
+    },
+    {
+      "type": "checkbox",
+      "id": "hide_dots",
+      "label": "Masquer les points",
+      "default": false
+    }
+  ],
   "blocks": [
     {
       "type": "testimonial",
@@ -214,7 +230,7 @@ document.addEventListener('DOMContentLoaded', function() {
   ],
   "presets": [
     {
-      "name": "Carrousel d'avis simple",
+      "name": "Carrousel d'avis compact",
       "blocks": [
         {
           "type": "testimonial"
