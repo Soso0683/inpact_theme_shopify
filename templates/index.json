@@ -858,15 +858,66 @@
         "heading_cqyfkU": {
           "type": "heading",
           "settings": {
-            "text": "",
+            "text": "C'est Prouvé Scientifiquement",
             "heading_tag": "h1",
-            "text_color": "",
+            "text_color": "#2e4147",
             "gradient": ""
+          }
+        },
+        "heading_fJYdti": {
+          "type": "heading",
+          "settings": {
+            "text": "96%",
+            "heading_tag": "h2",
+            "text_color": "#466771",
+            "gradient": ""
+          }
+        },
+        "richtext_bDV4xX": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h5>Constatent des <strong>résultats visibles </strong>après la <strong>première utilisation</strong></h5>"
+          }
+        },
+        "heading_z9dbP6": {
+          "type": "heading",
+          "settings": {
+            "text": "92%",
+            "heading_tag": "h2",
+            "text_color": "#466771",
+            "gradient": ""
+          }
+        },
+        "richtext_Be9g66": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Rapportent <strong>une peau raffermie </strong>et <strong>liftée </strong>sur le long terme<br/><br/></p>"
+          }
+        },
+        "heading_hzJdcR": {
+          "type": "heading",
+          "settings": {
+            "text": "90%",
+            "heading_tag": "h2",
+            "text_color": "#466771",
+            "gradient": ""
+          }
+        },
+        "richtext_nXmndJ": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Remarquent une <strong>réduction significative </strong>de leur double menton après 21 jours</p>"
           }
         }
       },
       "block_order": [
-        "heading_cqyfkU"
+        "heading_cqyfkU",
+        "heading_fJYdti",
+        "richtext_bDV4xX",
+        "heading_z9dbP6",
+        "richtext_Be9g66",
+        "heading_hzJdcR",
+        "richtext_nXmndJ"
       ],
       "custom_css": [
         ".section-full {padding-top: 10px; padding-bottom: 10px;}"
@@ -906,10 +957,20 @@
             "text_color": "",
             "gradient": ""
           }
+        },
+        "heading_J9bjbt": {
+          "type": "heading",
+          "settings": {
+            "text": "Heading",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
         }
       },
       "block_order": [
-        "heading_wRyNBG"
+        "heading_wRyNBG",
+        "heading_J9bjbt"
       ],
       "custom_css": [
         ".section-full {padding-top: 10px; padding-bottom: 10px;}"
