@@ -617,6 +617,36 @@
         "overlay_opacity": 0
       }
     },
+    "image_with_text_overlay_PzA6Rh": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify://shop_images/pleintesti-Photoroom.png",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "image_with_text_overlay_g6YaAe": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify://shop_images/imagesimple2.png",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
     "rich_text_YLikcr": {
       "type": "rich-text",
       "blocks": {
@@ -700,27 +730,27 @@
         "step_Tz3pE4": {
           "type": "step",
           "settings": {
-            "image": "shopify://shop_images/853987-hd_1920_1080_25fps.gif",
-            "title": "Connectez",
-            "description": "Activez le Bluetooth de votre téléphone et Sélectionnez les écouteurs \"TWS\" dans la liste des appareils disponibles.",
+            "image": "shopify://shop_images/etape.jpg",
+            "title": "NETTOYER",
+            "description": "Nettoyez votre peau et retirez toute trace de maquillage.",
             "alignment": "left"
           }
         },
         "step_nLCmgz": {
           "type": "step",
           "settings": {
-            "image": "shopify://shop_images/0407_1.gif",
-            "title": "Portez",
-            "description": "Insérez-les dans vos oreilles : Ils se connectent automatiquement une fois appairés.",
+            "image": "shopify://shop_images/etape2.jpg",
+            "title": "APPLIQUER",
+            "description": "Appliquez le masque une fois par semaine pendant 5 à 10 minutes..",
             "alignment": "left"
           }
         },
         "step_iqajVr": {
           "type": "step",
           "settings": {
-            "image": "shopify://shop_images/0407a.gif",
-            "title": "Profitez",
-            "description": "Soyez prêt à vous reposer",
+            "image": "shopify://shop_images/etape3.jpg",
+            "title": "REVITALISER & ADMIRER LES RÉSULTATS",
+            "description": "Laissez le silicone médical agir au cœur de vos cellules et profitez d’un vrai moment de bien-être.",
             "alignment": "left"
           }
         }
@@ -928,6 +958,8 @@
     "image_with_text_overlay_PBVp8d",
     "image_with_text_overlay_B6CALq",
     "image_with_text_overlay_6iKkWg",
+    "image_with_text_overlay_PzA6Rh",
+    "image_with_text_overlay_g6YaAe",
     "rich_text_YLikcr",
     "before_after_image_VLt8TH",
     "rich_text_LEHNtk",
