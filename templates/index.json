@@ -639,7 +639,7 @@
         "heading_yQFyCG"
       ],
       "custom_css": [
-        ".section-full {padding-top: 10px; padding-bottom: 20px;}"
+        ".section-full {padding-top: 30px; padding-bottom: 30px;}"
       ],
       "settings": {
         "full_width": true,
@@ -1076,7 +1076,7 @@
         "button_text": "",
         "button_url": "",
         "text_position": "start",
-        "background": "#d4d3dc",
+        "background": "#f0f0f0",
         "background_gradient": "",
         "text_color": "",
         "heading_color": "",
