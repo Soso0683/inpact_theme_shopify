@@ -647,81 +647,40 @@
         "overlay_opacity": 0
       }
     },
-    "rich_text_YLikcr": {
-      "type": "rich-text",
+    "avisssss_heQUyK": {
+      "type": "avisssss",
       "blocks": {
-        "heading_Pn7pzx": {
-          "type": "heading",
+        "testimonial_image_EJBqhJ": {
+          "type": "testimonial_image",
           "settings": {
-            "text": "Profitez d'une nuit sans douleur",
-            "heading_tag": "h3",
-            "text_color": "",
-            "gradient": ""
+            "testimonial_image": "shopify://shop_images/testi8-Photoroom.png",
+            "testimonial_alt": "Avis client"
+          }
+        },
+        "testimonial_image_UQHpgt": {
+          "type": "testimonial_image",
+          "settings": {
+            "testimonial_image": "shopify://shop_images/testi3-Photoroom.png",
+            "testimonial_alt": "Avis client"
+          }
+        },
+        "testimonial_image_XBCyba": {
+          "type": "testimonial_image",
+          "settings": {
+            "testimonial_image": "shopify://shop_images/testi6.jpg",
+            "testimonial_alt": "Avis client"
           }
         }
       },
       "block_order": [
-        "heading_Pn7pzx"
+        "testimonial_image_EJBqhJ",
+        "testimonial_image_UQHpgt",
+        "testimonial_image_XBCyba"
       ],
       "settings": {
-        "full_width": true,
-        "content_width": "small",
-        "text_position": "center",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
-    "before_after_image_VLt8TH": {
-      "type": "before-after-image",
-      "settings": {
-        "full_width": true,
-        "subheading": "",
-        "title": "",
-        "content": "",
-        "before_image": "shopify://shop_images/avant1.gif",
-        "after_image": "shopify://shop_images/apres1.gif",
-        "expand_image": false,
-        "text_position": "start",
-        "before_after_text_position": "top",
-        "before_text": "Normaux",
-        "after_text": "Somniris",
-        "drag_initial_position": 50,
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "before_text_color": "#ffffff",
-        "after_text_color": "#ffffff",
-        "drag_cursor_background": "#ffffff",
-        "drag_cursor_color": "#000000"
-      }
-    },
-    "rich_text_LEHNtk": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_Bpn7qG": {
-          "type": "heading",
-          "settings": {
-            "text": "Facile à utiliser",
-            "heading_tag": "h3",
-            "text_color": "",
-            "gradient": ""
-          }
-        }
-      },
-      "block_order": [
-        "heading_Bpn7qG"
-      ],
-      "custom_css": [
-        ".section-full {padding-top: 0px; padding-bottom: 0px;}"
-      ],
-      "settings": {
-        "full_width": true,
-        "content_width": "small",
-        "text_position": "center",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
+        "title": "Nos avis clients",
+        "enable_autoplay": false,
+        "autoplay_speed": 5
       }
     },
     "howto_kenGkk": {
@@ -960,9 +919,7 @@
     "image_with_text_overlay_6iKkWg",
     "image_with_text_overlay_PzA6Rh",
     "image_with_text_overlay_g6YaAe",
-    "rich_text_YLikcr",
-    "before_after_image_VLt8TH",
-    "rich_text_LEHNtk",
+    "avisssss_heQUyK",
     "howto_kenGkk",
     "faq",
     "1744055170dbb73b23"
