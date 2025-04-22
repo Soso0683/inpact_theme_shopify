@@ -770,7 +770,7 @@
         "heading_gxBiDc"
       ],
       "custom_css": [
-        ".section-full {padding-top: 10px; padding-bottom: 10px;}"
+        ".section-full {padding-top: 30px; padding-bottom: 10px;}"
       ],
       "settings": {
         "full_width": true,
