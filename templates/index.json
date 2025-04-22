@@ -405,7 +405,7 @@
         "liquid_mTNi3P": {
           "type": "liquid",
           "settings": {
-            "liquid": "<style>\n  .blink {\n    animation: blink-animation 1.5s steps(5, start) infinite;\n    color: red;\n    display: inline-block; /* Display as inline-block */\n    vertical-align: middle; /* Align vertically to middle */\n    font-size: 10px; /* Set font size */\n  }\n\n  @keyframes blink-animation {\n    to {\n      visibility: hidden;\n    }\n  }\n\n  .red-div {\n    background-color: #ffcccc;\n    padding: 2px 10px; /* 6px vertical, 10px horizontal */\n    border-radius: 8px; /* Rounded corners */\n    display: inline-block; /* Display as inline-block */\n    text-align: center; /* Center align the content */\n    margin: 0 auto; /* Horizontally center the red-div */\n  }\n\n  .text {\n    display: inline-block; /* Display as inline-block */\n    vertical-align: middle; /* Align vertically to middle */\n    margin-left: 10px; /* Add some space between the dot and the text */\n    color: #AD0000; /* Text color */\n    font-weight: 500; /* Medium font weight */\n    font-size: 12px; /* Set font size */\n    text-align: justify; /* Justify the text to the center */\n  }\n</style>\n\n<div class=\"red-div\">\n  <div class=\"blink\">&#9679;</div>\n  <div class=\"text\">Stock restant : 7 paires.</div>\n</div>"
+            "liquid": "<style>\n  .blink {\n    animation: blink-animation 1.5s steps(5, start) infinite;\n    color: red;\n    display: inline-block; /* Display as inline-block */\n    vertical-align: middle; /* Align vertically to middle */\n    font-size: 10px; /* Set font size */\n  }\n\n  @keyframes blink-animation {\n    to {\n      visibility: hidden;\n    }\n  }\n\n  .red-div {\n    background-color: #ffcccc;\n    padding: 2px 10px; /* 6px vertical, 10px horizontal */\n    border-radius: 8px; /* Rounded corners */\n    display: inline-block; /* Display as inline-block */\n    text-align: center; /* Center align the content */\n    margin: 0 auto; /* Horizontally center the red-div */\n  }\n\n  .text {\n    display: inline-block; /* Display as inline-block */\n    vertical-align: middle; /* Align vertically to middle */\n    margin-left: 10px; /* Add some space between the dot and the text */\n    color: #AD0000; /* Text color */\n    font-weight: 500; /* Medium font weight */\n    font-size: 12px; /* Set font size */\n    text-align: justify; /* Justify the text to the center */\n  }\n</style>\n\n<div class=\"red-div\">\n  <div class=\"blink\">&#9679;</div>\n  <div class=\"text\">Stock restant : 5 kits.</div>\n</div>"
           }
         },
         "rating_igeLc6": {
@@ -500,6 +500,55 @@
         "input_text_color": ""
       }
     },
+    "image_with_text_overlay_6iKkWg": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "full_width": false,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify://shop_images/dermato.png",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "image_with_text_overlay_PBVp8d": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "subheading_XK4a8M": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "heading_wAUwew": {
+          "type": "heading",
+          "settings": {
+            "text": "La Meilleure façon de Sculpter votre visage",
+            "heading_tag": "h3"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_XK4a8M",
+        "heading_wAUwew"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify://shop_images/imagesimple.jpg",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 13
+      }
+    },
     "tabs_tikiTy": {
       "type": "tabs",
       "blocks": {
@@ -564,40 +613,6 @@
         "heading_gradient": ""
       }
     },
-    "image_with_text_overlay_PBVp8d": {
-      "type": "image-with-text-overlay",
-      "blocks": {
-        "subheading_XK4a8M": {
-          "type": "subheading",
-          "settings": {
-            "text": ""
-          }
-        },
-        "heading_wAUwew": {
-          "type": "heading",
-          "settings": {
-            "text": "La Meilleure façon de Sculpter votre visage",
-            "heading_tag": "h3"
-          }
-        }
-      },
-      "block_order": [
-        "subheading_XK4a8M",
-        "heading_wAUwew"
-      ],
-      "settings": {
-        "full_width": true,
-        "allow_transparent_header": false,
-        "enable_parallax": false,
-        "image_size": "auto",
-        "image": "shopify://shop_images/imagesimple.jpg",
-        "mobile_text_position": "place-self-center text-center",
-        "desktop_text_position": "sm:place-self-center sm:text-center",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 13
-      }
-    },
     "image_with_text_overlay_B6CALq": {
       "type": "image-with-text-overlay",
       "settings": {
@@ -622,21 +637,6 @@
         "enable_parallax": false,
         "image_size": "auto",
         "image": "shopify://shop_images/imagesimple2.png",
-        "mobile_text_position": "place-self-center text-center",
-        "desktop_text_position": "sm:place-self-center sm:text-center",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 0
-      }
-    },
-    "image_with_text_overlay_6iKkWg": {
-      "type": "image-with-text-overlay",
-      "settings": {
-        "full_width": false,
-        "allow_transparent_header": false,
-        "enable_parallax": false,
-        "image_size": "auto",
-        "image": "shopify://shop_images/dermato.png",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
@@ -1033,11 +1033,11 @@
     "trustpilot_VdhhH4",
     "avisssss_fiKU9W",
     "featured_product_yJHJTN",
-    "tabs_tikiTy",
+    "image_with_text_overlay_6iKkWg",
     "image_with_text_overlay_PBVp8d",
+    "tabs_tikiTy",
     "image_with_text_overlay_B6CALq",
     "image_with_text_overlay_g6YaAe",
-    "image_with_text_overlay_6iKkWg",
     "image_with_text_overlay_PzA6Rh",
     "rich_text_x4FrWC",
     "howto_kenGkk",
