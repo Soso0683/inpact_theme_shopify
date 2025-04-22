@@ -433,9 +433,9 @@
         "image_anAxwe": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Decouvrez_les_ecouteurs_Somniris__1_-removebg-preview.png",
-            "alignment": "start",
-            "max_width": 500
+            "image": "shopify://shop_images/derniereluck.png",
+            "alignment": "center",
+            "max_width": 340
           }
         },
         "essential_countdown_app_block_k6xxGV": {
