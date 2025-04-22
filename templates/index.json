@@ -675,7 +675,7 @@
           "type": "heading",
           "settings": {
             "text": "Comment l'utiliser ?",
-            "heading_tag": "h1",
+            "heading_tag": "h2",
             "text_color": "#2e4147",
             "gradient": ""
           }
@@ -751,6 +751,9 @@
         "step_Tz3pE4",
         "step_nLCmgz",
         "step_iqajVr"
+      ],
+      "custom_css": [
+        ".section-full {padding-top: 10px; padding-bottom: 10px;}"
       ],
       "settings": {}
     },
