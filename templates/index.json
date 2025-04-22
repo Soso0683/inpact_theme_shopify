@@ -561,16 +561,24 @@
         "tab_MHFViU": {
           "type": "tab",
           "settings": {
-            "title": "Caractéristiques",
-            "content": "<ul><li>Recharge rapide via USB-C</li><li>Jusqu’à 8h d’autonomie par charge</li><li>Boîtier de recharge portable (20h d’autonomie totale)</li><li>Connexion Bluetooth 5.1 rapide et stable</li><li>Affichage LED du niveau de batterie</li><li>Commandes tactiles intuitives</li><li>Résistance à l’eau IPX4, parfait pour le sport</li><li>Qualité sonore HD avec basses profondes<br/><br/></li></ul><p><br/></p>",
+            "title": "Le pouvoir du Silicone Médical",
+            "content": "<p>Ce masque crée un micro-climat apaisant qui enveloppe votre peau. Le <strong>silicone de qualité médicale </strong>hydrate en profondeur, raffermit la peau et offre une sensation de détente immédiate.<br/></p>",
             "page": ""
           }
         },
-        "tab_FV3X3x": {
+        "tab_7rjEMT": {
           "type": "tab",
           "settings": {
-            "title": "Essayez-les 30 jours gratuitement",
-            "content": "<p>Essayez les écouteurs Somniris sans risques <strong>pendant 30 jours</strong>. Si vous n'êtes pas complètement satisfait de vos écouteurs Somniris vous avez la possibilité de les retourner et <strong>vous recevrez un remboursement intégral</strong>.</p>",
+            "title": "Un Raffermissement Naturel et Doux",
+            "content": "<p>Comme une caresse ferme, il <strong>sculpte et redessine</strong> les contours du visage tout en réduisant votre double menton. <strong>Résultat : </strong>une mâchoire plus fine, un visage plus net, sans effort.<br/><br/>En améliorant la microcirculation, il <strong>booste le renouvellement cellulaire</strong>, ravive l’éclat de la peau et favorise une meilleure absorption des soins.</p>",
+            "page": ""
+          }
+        },
+        "tab_tyhmCN": {
+          "type": "tab",
+          "settings": {
+            "title": "Un Coup de Pouce au Collagène",
+            "content": "<p>Il stimule naturellement la production de <strong>collagène</strong>, essentiel pour maintenir une peau ferme, tonique et visiblement plus jeune.</p>",
             "page": ""
           }
         },
@@ -586,25 +594,20 @@
           "type": "tab",
           "settings": {
             "title": "Service client 7J/7",
-            "content": "<p>Votre équipe Somniris est à votre disposition pour répondre à vos questions sept jours sur sept.</p>",
-            "page": ""
-          }
-        },
-        "tab_LBUDNq": {
-          "type": "tab",
-          "settings": {
-            "title": "Comment les utiliser",
-            "content": "<p><strong>Ouvrez le boîtier</strong> : Les écouteurs s’allument automatiquement.</p><p><strong>Activez le Bluetooth</strong> de votre téléphone ou appareil.<br/><br/><strong>Sélectionnez les écouteurs \"TWS\"</strong> dans la liste des appareils disponibles.<br/><br/><strong>Insérez-les dans vos oreilles</strong> : Ils se connectent automatiquement une fois appairés.<br/><br/><strong>Remettez-les dans le boîtier</strong> pour les éteindre et les recharger.<br/><br/></p>",
+            "content": "<p>Votre équipe Velynea est à votre disposition pour répondre à vos questions sept jours sur sept.</p>",
             "page": ""
           }
         }
       },
       "block_order": [
         "tab_MHFViU",
-        "tab_FV3X3x",
+        "tab_7rjEMT",
+        "tab_tyhmCN",
         "tab_4br3iG",
-        "tab_nUWi9g",
-        "tab_LBUDNq"
+        "tab_nUWi9g"
+      ],
+      "custom_css": [
+        ".section-full {padding-top: 10px; padding-bottom: 10px;}"
       ],
       "settings": {
         "full_width": true,
