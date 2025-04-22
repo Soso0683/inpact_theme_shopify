@@ -42,7 +42,7 @@
 
 .simple-testimonial-container {
   max-width: 100%; /* Utiliser toute la largeur disponible */
-  margin: 0 auto;
+  margin: 0 !important;
   position: relative;
   overflow: hidden;
 }
@@ -59,6 +59,7 @@
   box-sizing: border-box;
   display: flex;
   justify-content: center;
+  padding: 0 !important;
 }
 
 .simple-testimonial-image {
@@ -97,8 +98,8 @@
 .simple-dots-container {
   display: flex;
   justify-content: center;
-  margin-top: 8px; /* Réduction de la marge au-dessus des points */
-  margin-bottom: 8px; /* Ajout d'une petite marge en bas des points */
+  margin-top: 5px !important;
+  margin-bottom: 5px !important;
   gap: 8px;
 }
 
@@ -116,11 +117,6 @@
   background-color: #333;
 }
 
-/* Si votre thème a des marges/paddings par défaut sur les sections */
-.section {
-  padding: 0;
-  margin: 0;
-}
 
 {% endstylesheet %}
 
