@@ -482,6 +482,9 @@
         "pickup_availability_etUTLc",
         "image_QhCbh4"
       ],
+      "custom_css": [
+        ".section-full {padding-bottom: 10px;}"
+      ],
       "settings": {
         "full_width": true,
         "product": "somniris",
@@ -502,6 +505,9 @@
     },
     "image_with_text_overlay_6iKkWg": {
       "type": "image-with-text-overlay",
+      "custom_css": [
+        ".section-full {padding-top: 10px; padding-bottom: 10px;}"
+      ],
       "settings": {
         "full_width": false,
         "allow_transparent_header": false,
