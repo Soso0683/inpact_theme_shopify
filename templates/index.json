@@ -555,6 +555,73 @@
         "overlay_opacity": 13
       }
     },
+    "tabs_tikiTy": {
+      "type": "tabs",
+      "blocks": {
+        "tab_MHFViU": {
+          "type": "tab",
+          "settings": {
+            "title": "Le pouvoir du Silicone Médical",
+            "content": "<p>Ce masque crée un micro-climat apaisant qui enveloppe votre peau. Le <strong>silicone de qualité médicale </strong>hydrate en profondeur, raffermit la peau et offre une sensation de détente immédiate.<br/></p>",
+            "page": ""
+          }
+        },
+        "tab_7rjEMT": {
+          "type": "tab",
+          "settings": {
+            "title": "Un Raffermissement Naturel et Doux",
+            "content": "<p>Comme une caresse ferme, il <strong>sculpte et redessine</strong> les contours du visage tout en réduisant votre double menton. <strong>Résultat : </strong>une mâchoire plus fine, un visage plus net, sans effort.<br/><br/>En améliorant la microcirculation, il <strong>booste le renouvellement cellulaire</strong>, ravive l’éclat de la peau et favorise une meilleure absorption des soins.</p>",
+            "page": ""
+          }
+        },
+        "tab_tyhmCN": {
+          "type": "tab",
+          "settings": {
+            "title": "Un Coup de Pouce au Collagène",
+            "content": "<p>Il stimule naturellement la production de <strong>collagène</strong>, essentiel pour maintenir une peau ferme, tonique et visiblement plus jeune.</p>",
+            "page": ""
+          }
+        },
+        "tab_4br3iG": {
+          "type": "tab",
+          "settings": {
+            "title": "Livraison gratuite à domicile",
+            "content": "<p>La livraison à domicile est gratuite. Selon le volume de commandes à traiter, le délai de livraison est éstimé entre 5 et 8 jours ouvrés.</p>",
+            "page": ""
+          }
+        },
+        "tab_nUWi9g": {
+          "type": "tab",
+          "settings": {
+            "title": "Service client 7J/7",
+            "content": "<p>Votre équipe Velynea est à votre disposition pour répondre à vos questions sept jours sur sept.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "tab_MHFViU",
+        "tab_7rjEMT",
+        "tab_tyhmCN",
+        "tab_4br3iG",
+        "tab_nUWi9g"
+      ],
+      "custom_css": [
+        ".section-full {padding-top: 10px; padding-bottom: 10px;}"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_size": "medium",
+        "subheading": "",
+        "title": "",
+        "first_tab_open": false,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
     "rich_text_4hHW4w": {
       "type": "rich-text",
       "blocks": {
@@ -664,73 +731,6 @@
       "settings": {
         "hide_arrows": false,
         "hide_dots": false
-      }
-    },
-    "tabs_tikiTy": {
-      "type": "tabs",
-      "blocks": {
-        "tab_MHFViU": {
-          "type": "tab",
-          "settings": {
-            "title": "Le pouvoir du Silicone Médical",
-            "content": "<p>Ce masque crée un micro-climat apaisant qui enveloppe votre peau. Le <strong>silicone de qualité médicale </strong>hydrate en profondeur, raffermit la peau et offre une sensation de détente immédiate.<br/></p>",
-            "page": ""
-          }
-        },
-        "tab_7rjEMT": {
-          "type": "tab",
-          "settings": {
-            "title": "Un Raffermissement Naturel et Doux",
-            "content": "<p>Comme une caresse ferme, il <strong>sculpte et redessine</strong> les contours du visage tout en réduisant votre double menton. <strong>Résultat : </strong>une mâchoire plus fine, un visage plus net, sans effort.<br/><br/>En améliorant la microcirculation, il <strong>booste le renouvellement cellulaire</strong>, ravive l’éclat de la peau et favorise une meilleure absorption des soins.</p>",
-            "page": ""
-          }
-        },
-        "tab_tyhmCN": {
-          "type": "tab",
-          "settings": {
-            "title": "Un Coup de Pouce au Collagène",
-            "content": "<p>Il stimule naturellement la production de <strong>collagène</strong>, essentiel pour maintenir une peau ferme, tonique et visiblement plus jeune.</p>",
-            "page": ""
-          }
-        },
-        "tab_4br3iG": {
-          "type": "tab",
-          "settings": {
-            "title": "Livraison gratuite à domicile",
-            "content": "<p>La livraison à domicile est gratuite. Selon le volume de commandes à traiter, le délai de livraison est éstimé entre 5 et 8 jours ouvrés.</p>",
-            "page": ""
-          }
-        },
-        "tab_nUWi9g": {
-          "type": "tab",
-          "settings": {
-            "title": "Service client 7J/7",
-            "content": "<p>Votre équipe Velynea est à votre disposition pour répondre à vos questions sept jours sur sept.</p>",
-            "page": ""
-          }
-        }
-      },
-      "block_order": [
-        "tab_MHFViU",
-        "tab_7rjEMT",
-        "tab_tyhmCN",
-        "tab_4br3iG",
-        "tab_nUWi9g"
-      ],
-      "custom_css": [
-        ".section-full {padding-top: 10px; padding-bottom: 10px;}"
-      ],
-      "settings": {
-        "full_width": true,
-        "content_size": "medium",
-        "subheading": "",
-        "title": "",
-        "first_tab_open": false,
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": ""
       }
     },
     "image_with_text_overlay_B6CALq": {
@@ -1078,15 +1078,15 @@
     "featured_product_yJHJTN",
     "image_with_text_overlay_6iKkWg",
     "image_with_text_overlay_PBVp8d",
+    "tabs_tikiTy",
     "rich_text_4hHW4w",
     "avisssss_heQUyK",
-    "tabs_tikiTy",
-    "image_with_text_overlay_B6CALq",
-    "image_with_text_overlay_g6YaAe",
-    "image_with_text_overlay_PzA6Rh",
     "rich_text_x4FrWC",
     "howto_kenGkk",
     "image_with_text_overlay_naTYMH",
+    "image_with_text_overlay_PzA6Rh",
+    "image_with_text_overlay_g6YaAe",
+    "image_with_text_overlay_B6CALq",
     "faq",
     "1744055170dbb73b23"
   ]
