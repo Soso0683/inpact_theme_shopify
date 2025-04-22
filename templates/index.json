@@ -647,6 +647,89 @@
         "overlay_opacity": 0
       }
     },
+    "rich_text_x4FrWC": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_HQUhtJ": {
+          "type": "heading",
+          "settings": {
+            "text": "Comment l'utiliser ?",
+            "heading_tag": "h1",
+            "text_color": "#2e4147",
+            "gradient": ""
+          }
+        },
+        "heading_rK97y4": {
+          "type": "heading",
+          "settings": {
+            "text": "3 étapes simples",
+            "heading_tag": "h4",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "heading_gxBiDc": {
+          "type": "heading",
+          "settings": {
+            "text": "C'est plus facile que vous ne le pensez!",
+            "heading_tag": "h3",
+            "text_color": "#2e4147",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_HQUhtJ",
+        "heading_rK97y4",
+        "heading_gxBiDc"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "howto_kenGkk": {
+      "type": "howto",
+      "blocks": {
+        "step_Tz3pE4": {
+          "type": "step",
+          "settings": {
+            "image": "shopify://shop_images/etape.jpg",
+            "title": "NETTOYER",
+            "description": "Nettoyez votre peau et retirez toute trace de maquillage.",
+            "alignment": "left"
+          }
+        },
+        "step_nLCmgz": {
+          "type": "step",
+          "settings": {
+            "image": "shopify://shop_images/etape2.jpg",
+            "title": "APPLIQUER",
+            "description": "Appliquez le masque une fois par semaine pendant 5 à 10 minutes..",
+            "alignment": "left"
+          }
+        },
+        "step_iqajVr": {
+          "type": "step",
+          "settings": {
+            "image": "shopify://shop_images/etape3.jpg",
+            "title": "REVITALISER & ADMIRER LES RÉSULTATS",
+            "description": "Laissez le silicone médical agir au cœur de vos cellules et profitez d’un vrai moment de bien-être.",
+            "alignment": "left"
+          }
+        }
+      },
+      "block_order": [
+        "step_Tz3pE4",
+        "step_nLCmgz",
+        "step_iqajVr"
+      ],
+      "settings": {}
+    },
     "image_with_text_overlay_naTYMH": {
       "type": "image-with-text-overlay",
       "settings": {
@@ -744,44 +827,6 @@
         "hide_arrows": false,
         "hide_dots": false
       }
-    },
-    "howto_kenGkk": {
-      "type": "howto",
-      "blocks": {
-        "step_Tz3pE4": {
-          "type": "step",
-          "settings": {
-            "image": "shopify://shop_images/etape.jpg",
-            "title": "NETTOYER",
-            "description": "Nettoyez votre peau et retirez toute trace de maquillage.",
-            "alignment": "left"
-          }
-        },
-        "step_nLCmgz": {
-          "type": "step",
-          "settings": {
-            "image": "shopify://shop_images/etape2.jpg",
-            "title": "APPLIQUER",
-            "description": "Appliquez le masque une fois par semaine pendant 5 à 10 minutes..",
-            "alignment": "left"
-          }
-        },
-        "step_iqajVr": {
-          "type": "step",
-          "settings": {
-            "image": "shopify://shop_images/etape3.jpg",
-            "title": "REVITALISER & ADMIRER LES RÉSULTATS",
-            "description": "Laissez le silicone médical agir au cœur de vos cellules et profitez d’un vrai moment de bien-être.",
-            "alignment": "left"
-          }
-        }
-      },
-      "block_order": [
-        "step_Tz3pE4",
-        "step_nLCmgz",
-        "step_iqajVr"
-      ],
-      "settings": {}
     },
     "faq": {
       "type": "faq",
@@ -981,9 +1026,10 @@
     "image_with_text_overlay_g6YaAe",
     "image_with_text_overlay_6iKkWg",
     "image_with_text_overlay_PzA6Rh",
+    "rich_text_x4FrWC",
+    "howto_kenGkk",
     "image_with_text_overlay_naTYMH",
     "avisssss_heQUyK",
-    "howto_kenGkk",
     "faq",
     "1744055170dbb73b23"
   ]
