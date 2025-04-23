@@ -104,7 +104,7 @@
         "logo_kKEYng"
       ],
       "custom_css": [
-        ".section-full {padding-top: 15px; padding-bottom: 10px;}"
+        ".section-full {padding-top: 25px; padding-bottom: 10px;}"
       ],
       "settings": {
         "full_width": true,
@@ -240,7 +240,6 @@
         "stars_size": 28,
         "stars_size_mobile": 24,
         "text": "<p>basé sur <strong>1 067</strong> avis</p>",
-        "text_right_image": "shopify://shop_images/image-removebg-preview_1.png",
         "text_custom": false,
         "text_font": "josefin_sans_n4",
         "text_size": 20,
@@ -462,7 +461,6 @@
         "image_QhCbh4": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/image-removebg-preview.png",
             "alignment": "center",
             "max_width": 500
           }
