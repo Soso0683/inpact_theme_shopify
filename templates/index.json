@@ -481,7 +481,9 @@
         "image_QhCbh4"
       ],
       "custom_css": [
-        ".section-full {padding-bottom: 10px;}"
+        ".kaching-bundles .kaching-bundles__bar--selected .kaching-bundles__bar-title,.kaching-bundles .kaching-bundles__bar--selected .kaching-bundles__bar-subtitle {color: white;}",
+        ".kaching-bundles__free-gift {display: flex; flex-direction: row; align-items: center; justify-content: center; text-align: center;}",
+        ".section-full {padding-bottom: 0px;}"
       ],
       "settings": {
         "full_width": true,
@@ -989,7 +991,7 @@
           "type": "item",
           "settings": {
             "title": "Les masques Velynea™ sont-ils compatible avec tous les types depeaux ?",
-            "content": "<p>Le silicone medical <strong>s'adapte automatiquement à votre peau,</strong>les masques Chinology™ sont compatibles pour toutes les femmes et tous les types de peau.<br/><br/>Si vous voulez les meilleurs résultats,<strong>nous vous recommandons de l'appliquer deux fois par semaine</strong>afin d'obtenir des résultats encore plus visibles!<br/><br/></p>"
+            "content": "<p>Le silicone medical <strong>s'adapte automatiquement à votre peau,</strong>les masques Chinology™ sont compatibles pour toutes les femmes et tous les types de peau.<br/><br/>Si vous voulez les meilleurs résultats,<strong>nous vous recommandons de l'appliquer deux fois par semaine</strong>afin d'obtenir des résultats encore plus visibles!<br/></p>"
           }
         },
         "166442457738b23caf-1": {
