@@ -213,9 +213,6 @@
     },
     "trustpilot_VdhhH4": {
       "type": "trustpilot",
-      "custom_css": [
-        ".section-full {padding-bottom: 0px;}"
-      ],
       "settings": {
         "content_align": "center",
         "content_align_mobile": "center",
@@ -329,7 +326,7 @@
         "stars_bg_color": "#00b67a",
         "stars_color": "#ffffff",
         "text_color": "#000000",
-        "background_color": "#f0f0f0",
+        "background_color": "#ebf2fa",
         "background_gradient": "",
         "border_color": "#000000",
         "margin_top": 0,
@@ -342,42 +339,6 @@
         "content_width": 120,
         "border_thickness": 0,
         "lazy": true
-      }
-    },
-    "avisssss_fiKU9W": {
-      "type": "avisssss",
-      "blocks": {
-        "testimonial_NzLeqe": {
-          "type": "testimonial",
-          "settings": {
-            "image": "shopify://shop_images/testi2.jpg",
-            "alt_text": "Avis client"
-          }
-        },
-        "testimonial_hhPQYA": {
-          "type": "testimonial",
-          "settings": {
-            "image": "shopify://shop_images/image_trust.png",
-            "alt_text": "Avis client"
-          }
-        },
-        "testimonial_eHGbph": {
-          "type": "testimonial",
-          "settings": {
-            "image": "shopify://shop_images/testi1-Photoroom.png",
-            "alt_text": "Avis client"
-          }
-        }
-      },
-      "block_order": [
-        "testimonial_NzLeqe",
-        "testimonial_hhPQYA",
-        "testimonial_eHGbph"
-      ],
-      "custom_css": [],
-      "settings": {
-        "hide_arrows": false,
-        "hide_dots": false
       }
     },
     "featured_product_yJHJTN": {
@@ -1103,7 +1064,6 @@
     "video_mV8FLU",
     "rich_text_xwe6nM",
     "trustpilot_VdhhH4",
-    "avisssss_fiKU9W",
     "featured_product_yJHJTN",
     "image_with_text_overlay_6iKkWg",
     "image_with_text_overlay_PBVp8d",
