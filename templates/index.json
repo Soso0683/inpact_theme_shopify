@@ -26,8 +26,8 @@
         "slide-1": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/ChatGPT_Image_23_avr._2025_00_46_00.png",
-            "mobile_image": "shopify://shop_images/ChatGPT_Image_23_avr._2025_00_46_00.png",
+            "image": "shopify://shop_images/banniereSun.png",
+            "mobile_image": "shopify://shop_images/banniereSun.png",
             "content_max_width": 780,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
@@ -438,7 +438,7 @@
           }
         },
         "essential_countdown_app_block_k6xxGV": {
-          "type": "shopify://apps/essential-countdown/blocks/app-block/722378e8-5a70-4eae-aa89-9e44e8e9f6de",
+          "type": "shopify://apps/countdown-timer-essential/blocks/app-block/722378e8-5a70-4eae-aa89-9e44e8e9f6de",
           "settings": {
             "id": "cm966iy0c005y8q1vji4u6wfc"
           }
