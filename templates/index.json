@@ -118,7 +118,7 @@
         "text_color": "",
         "heading_color": "",
         "heading_gradient": "",
-        "logo_item_background": "",
+        "logo_item_background": "#e1edfc",
         "logo_item_border": ""
       }
     },
