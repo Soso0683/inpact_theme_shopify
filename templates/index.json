@@ -464,24 +464,6 @@
         "input_text_color": ""
       }
     },
-    "image_with_text_overlay_6iKkWg": {
-      "type": "image-with-text-overlay",
-      "custom_css": [
-        ".section-full {padding-top: 10px; padding-bottom: 10px;}"
-      ],
-      "settings": {
-        "full_width": false,
-        "allow_transparent_header": false,
-        "enable_parallax": false,
-        "image_size": "auto",
-        "image": "shopify://shop_images/dermato.png",
-        "mobile_text_position": "place-self-center text-center",
-        "desktop_text_position": "sm:place-self-center sm:text-center",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 0
-      }
-    },
     "image_with_text_overlay_PBVp8d": {
       "type": "image-with-text-overlay",
       "blocks": {
@@ -611,89 +593,6 @@
         "text_color": ""
       }
     },
-    "avisssss_heQUyK": {
-      "type": "avisssss",
-      "blocks": {
-        "testimonial_YaheGN": {
-          "type": "testimonial",
-          "settings": {
-            "image": "shopify://shop_images/testi3-Photoroom.png",
-            "alt_text": "Avis client"
-          }
-        },
-        "testimonial_JwT3Ep": {
-          "type": "testimonial",
-          "settings": {
-            "image": "shopify://shop_images/testi8-Photoroom.png",
-            "alt_text": "Avis client"
-          }
-        },
-        "testimonial_hqn8eU": {
-          "type": "testimonial",
-          "settings": {
-            "image": "shopify://shop_images/testi5.jpg",
-            "alt_text": "Avis client"
-          }
-        },
-        "testimonial_X4WL3D": {
-          "type": "testimonial",
-          "settings": {
-            "image": "shopify://shop_images/testi2.jpg",
-            "alt_text": "Avis client"
-          }
-        },
-        "testimonial_AbD6UH": {
-          "type": "testimonial",
-          "settings": {
-            "image": "shopify://shop_images/testi10.jpg",
-            "alt_text": "Avis client"
-          }
-        },
-        "testimonial_zLe4WT": {
-          "type": "testimonial",
-          "settings": {
-            "image": "shopify://shop_images/testi6.jpg",
-            "alt_text": "Avis client"
-          }
-        },
-        "testimonial_x8KMW9": {
-          "type": "testimonial",
-          "settings": {
-            "image": "shopify://shop_images/testi9.jpg",
-            "alt_text": "Avis client"
-          }
-        },
-        "testimonial_zcMaWk": {
-          "type": "testimonial",
-          "settings": {
-            "image": "shopify://shop_images/testi7.jpg",
-            "alt_text": "Avis client"
-          }
-        },
-        "testimonial_dLNnk8": {
-          "type": "testimonial",
-          "settings": {
-            "image": "shopify://shop_images/testi4.jpg",
-            "alt_text": "Avis client"
-          }
-        }
-      },
-      "block_order": [
-        "testimonial_YaheGN",
-        "testimonial_JwT3Ep",
-        "testimonial_hqn8eU",
-        "testimonial_X4WL3D",
-        "testimonial_AbD6UH",
-        "testimonial_zLe4WT",
-        "testimonial_x8KMW9",
-        "testimonial_zcMaWk",
-        "testimonial_dLNnk8"
-      ],
-      "settings": {
-        "hide_arrows": false,
-        "hide_dots": false
-      }
-    },
     "rich_text_x4FrWC": {
       "type": "rich-text",
       "blocks": {
@@ -782,36 +681,6 @@
         ".section-full {padding-top: 10px; padding-bottom: 10px;}"
       ],
       "settings": {}
-    },
-    "image_with_text_overlay_naTYMH": {
-      "type": "image-with-text-overlay",
-      "settings": {
-        "full_width": true,
-        "allow_transparent_header": false,
-        "enable_parallax": false,
-        "image_size": "auto",
-        "image": "shopify://shop_images/loversv1.png",
-        "mobile_text_position": "place-self-center text-center",
-        "desktop_text_position": "sm:place-self-center sm:text-center",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 0
-      }
-    },
-    "image_with_text_overlay_PzA6Rh": {
-      "type": "image-with-text-overlay",
-      "settings": {
-        "full_width": true,
-        "allow_transparent_header": false,
-        "enable_parallax": false,
-        "image_size": "auto",
-        "image": "shopify://shop_images/pleintesti-Photoroom.png",
-        "mobile_text_position": "place-self-center text-center",
-        "desktop_text_position": "sm:place-self-center sm:text-center",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 0
-      }
     },
     "rich_text_He4Tya": {
       "type": "rich-text",
@@ -1065,15 +934,11 @@
     "rich_text_xwe6nM",
     "trustpilot_VdhhH4",
     "featured_product_yJHJTN",
-    "image_with_text_overlay_6iKkWg",
     "image_with_text_overlay_PBVp8d",
     "tabs_tikiTy",
     "rich_text_4hHW4w",
-    "avisssss_heQUyK",
     "rich_text_x4FrWC",
     "howto_kenGkk",
-    "image_with_text_overlay_naTYMH",
-    "image_with_text_overlay_PzA6Rh",
     "rich_text_He4Tya",
     "image_with_text_overlay_g6YaAe",
     "rich_text_G4Azwy",
