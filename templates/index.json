@@ -758,6 +758,7 @@
         "item_tCWk3t": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/ChatGPT_Image_20_mai_2025_16_53_08.png",
             "column_size": "3",
             "title": "Silicone émolliente",
             "heading_tag": "h4",
@@ -770,6 +771,7 @@
         "item_iJCkrj": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/molecule.jpg",
             "column_size": "3",
             "title": "Dioxyde de titane",
             "heading_tag": "h4",
