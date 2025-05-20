@@ -704,19 +704,6 @@
     "multi_column_Lbk6Gj": {
       "type": "multi-column",
       "blocks": {
-        "item_Q88K6H": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/ChatGPT_Image_20_mai_2025_16_43_44.png",
-            "column_size": "3",
-            "title": "Émollient léger",
-            "heading_tag": "h4",
-            "content": "<p>Adoucit et lisse la peau</p>",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        },
         "item_cjLGyH": {
           "type": "item",
           "settings": {
@@ -756,6 +743,19 @@
             "link_style": "link"
           }
         },
+        "item_Q88K6H": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/ChatGPT_Image_20_mai_2025_16_43_44.png",
+            "column_size": "3",
+            "title": "Émollient léger",
+            "heading_tag": "h4",
+            "content": "<p>Adoucit et lisse la peau</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
         "item_tCWk3t": {
           "type": "item",
           "settings": {
@@ -764,19 +764,6 @@
             "title": "Silicone émolliente",
             "heading_tag": "h4",
             "content": "<p>Rend la texture douce et soyeuse</p>",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        },
-        "item_iJCkrj": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/molecule.jpg",
-            "column_size": "3",
-            "title": "Dioxyde de titane",
-            "heading_tag": "h4",
-            "content": "<p>Filtre UV minéral (écran solaire)</p>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -794,16 +781,29 @@
             "link_text": "",
             "link_style": "link"
           }
+        },
+        "item_iJCkrj": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/molecule.jpg",
+            "column_size": "3",
+            "title": "Dioxyde de titane",
+            "heading_tag": "h4",
+            "content": "<p>Filtre UV minéral (écran solaire)</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
         }
       },
       "block_order": [
-        "item_Q88K6H",
         "item_cjLGyH",
         "item_cyNmQJ",
         "item_DErEd8",
+        "item_Q88K6H",
         "item_tCWk3t",
-        "item_iJCkrj",
-        "item_Ca9M7G"
+        "item_Ca9M7G",
+        "item_iJCkrj"
       ],
       "custom_css": [
         ".section-full {padding-top: 20px; padding-bottom: 10px;}"
