@@ -606,49 +606,6 @@
         "heading_gradient": ""
       }
     },
-    "rich_text_4hHW4w": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_yQFyCG": {
-          "type": "heading",
-          "settings": {
-            "text": "Approuvé par des dermatologues,  Pensé pour votre peau",
-            "heading_tag": "h4",
-            "text_color": "#2e4147",
-            "gradient": ""
-          }
-        }
-      },
-      "block_order": [
-        "heading_yQFyCG"
-      ],
-      "custom_css": [
-        ".section-full {padding-top: 30px; padding-bottom: 30px;}"
-      ],
-      "settings": {
-        "full_width": true,
-        "content_width": "small",
-        "text_position": "center",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
-    "image_with_text_overlay_g6YaAe": {
-      "type": "image-with-text-overlay",
-      "settings": {
-        "full_width": true,
-        "allow_transparent_header": false,
-        "enable_parallax": false,
-        "image_size": "auto",
-        "image": "shopify://shop_images/imagedermato.png",
-        "mobile_text_position": "place-self-center text-center",
-        "desktop_text_position": "sm:place-self-center sm:text-center",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 0
-      }
-    },
     "multi_column_Lbk6Gj": {
       "type": "multi-column",
       "blocks": {
@@ -768,6 +725,49 @@
         "background": "",
         "background_gradient": "",
         "text_color": ""
+      }
+    },
+    "rich_text_4hHW4w": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_yQFyCG": {
+          "type": "heading",
+          "settings": {
+            "text": "Approuvé par des dermatologues,  Pensé pour votre peau",
+            "heading_tag": "h4",
+            "text_color": "#2e4147",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_yQFyCG"
+      ],
+      "custom_css": [
+        ".section-full {padding-top: 30px; padding-bottom: 30px;}"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "image_with_text_overlay_g6YaAe": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify://shop_images/imagedermato.png",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
       }
     },
     "rich_text_G4Azwy": {
@@ -986,9 +986,9 @@
     "multi_column_DakR9i",
     "featured_product_yJHJTN",
     "tabs_tikiTy",
+    "multi_column_Lbk6Gj",
     "rich_text_4hHW4w",
     "image_with_text_overlay_g6YaAe",
-    "multi_column_Lbk6Gj",
     "rich_text_G4Azwy",
     "faq",
     "1744055170dbb73b23"
