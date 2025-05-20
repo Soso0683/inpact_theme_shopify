@@ -386,6 +386,9 @@
         "item_QzKGgN",
         "item_KkHKbf"
       ],
+      "custom_css": [
+        ".section-full {padding-top: 0px; padding-bottom: 30px;}"
+      ],
       "name": "Multi-column",
       "settings": {
         "full_width": true,
