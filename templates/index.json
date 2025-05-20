@@ -701,6 +701,65 @@
         "overlay_opacity": 0
       }
     },
+    "multi_column_Lbk6Gj": {
+      "type": "multi-column",
+      "blocks": {
+        "item_Q88K6H": {
+          "type": "item",
+          "settings": {
+            "column_size": "3",
+            "title": "Column title",
+            "heading_tag": "h4",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_cjLGyH": {
+          "type": "item",
+          "settings": {
+            "column_size": "3",
+            "title": "Column title",
+            "heading_tag": "h4",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_cyNmQJ": {
+          "type": "item",
+          "settings": {
+            "column_size": "3",
+            "title": "Column title",
+            "heading_tag": "h4",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "item_Q88K6H",
+        "item_cjLGyH",
+        "item_cyNmQJ"
+      ],
+      "name": "Multi-column",
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "start",
+        "subheading": "",
+        "title": "Ingrédients testés cliniquement",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "rich_text_G4Azwy": {
       "type": "rich-text",
       "blocks": {
@@ -774,7 +833,7 @@
           "type": "item",
           "settings": {
             "title": "Quelle est la contenance du stick ?",
-            "content": "<p>Le stick contient 15g de formule solaire concentrée, ce qui permet de nombreuses applications.<br/></p>"
+            "content": "<p>Notre stick contient une combinaison d’ingrédients soigneusement sélectionnés comme <strong>l’acide hyaluronique</strong>, <strong>l’extrait de Centella </strong>et <strong>le dioxyde de titane</strong> pour hydrater, apaiser et protéger efficacement la peau. Sa formule inclut également des agents émollients comme <strong>l’isononyl isononanoate</strong> et <strong>l’huile minérale</strong>, pour une application douce et invisible</p>"
           }
         },
         "item_TeJrVF": {
@@ -920,6 +979,7 @@
     "tabs_tikiTy",
     "rich_text_4hHW4w",
     "image_with_text_overlay_g6YaAe",
+    "multi_column_Lbk6Gj",
     "rich_text_G4Azwy",
     "faq",
     "1744055170dbb73b23"
