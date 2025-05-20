@@ -707,6 +707,7 @@
         "item_Q88K6H": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/ChatGPT_Image_20_mai_2025_16_43_44.png",
             "column_size": "3",
             "title": "Émollient léger",
             "heading_tag": "h4",
@@ -719,6 +720,7 @@
         "item_cjLGyH": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/ChatGPT_Image_20_mai_2025_16_49_09.png",
             "column_size": "3",
             "title": "Huile minérale",
             "heading_tag": "h4",
@@ -731,6 +733,7 @@
         "item_cyNmQJ": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/ChatGPT_Image_20_mai_2025_16_48_57_1.png",
             "column_size": "3",
             "title": "Extrait de feuille de Centella",
             "heading_tag": "h4",
@@ -779,6 +782,7 @@
         "item_Ca9M7G": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/molecule2.jpg",
             "column_size": "3",
             "title": "Cire minérale",
             "heading_tag": "h4",
@@ -798,12 +802,15 @@
         "item_iJCkrj",
         "item_Ca9M7G"
       ],
+      "custom_css": [
+        ".section-full {padding-top: 20px; padding-bottom: 10px;}"
+      ],
       "name": "Multi-column",
       "settings": {
         "full_width": true,
         "stack_on_mobile": false,
         "gap": "medium",
-        "text_alignment": "start",
+        "text_alignment": "center",
         "subheading": "",
         "title": "Ingrédients testés cliniquement",
         "content": "",
