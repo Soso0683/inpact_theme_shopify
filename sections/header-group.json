@@ -24,7 +24,7 @@
         "message_f8Ddd7": {
           "type": "message",
           "settings": {
-            "text": "OFFRE Pâques - 50 %",
+            "text": "OFFRE FÊTE DES MÈRES -50%",
             "url": ""
           }
         },
@@ -51,7 +51,7 @@
       ],
       "settings": {
         "enable_sticky": false,
-        "text_size": "text-xs",
+        "text_size": "text-xxs",
         "navigation_mode": "scrolling",
         "scrolling_speed": 10,
         "background": "#5b9bd8",
