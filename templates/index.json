@@ -969,22 +969,36 @@
         "item_mEVGQ4": {
           "type": "item",
           "settings": {
-            "title": "Question",
-            "content": "<p>Write content to answer to common questions your customers may have about your products, shipping policies..</p>"
+            "title": "À quelle fréquence faut-il le réappliquer ?",
+            "content": "<p>Toutes les <strong>2 heures</strong>, ou après avoir transpiré, nagé ou s’être essuyé.</p>"
           }
         },
         "item_My4LjH": {
           "type": "item",
           "settings": {
-            "title": "Question",
-            "content": "<p>Write content to answer to common questions your customers may have about your products, shipping policies..</p>"
+            "title": "Est-ce qu’il résiste à l’eau ?",
+            "content": "<p>Oui, le stick est <strong>water resistant</strong>, parfait pour la plage ou les activités sportives.</p>"
           }
         },
         "item_YLz8BD": {
           "type": "item",
           "settings": {
-            "title": "Question",
-            "content": "<p>Write content to answer to common questions your customers may have about your products, shipping policies..</p>"
+            "title": "Comment l’appliquer correctement ?",
+            "content": "<p>Passez le stick directement sur la peau en mouvements doux et réguliers. </p>"
+          }
+        },
+        "item_3x3LYf": {
+          "type": "item",
+          "settings": {
+            "title": "En combien de temps ma commande sera-t-elle livrée ?",
+            "content": "<p>Entre <strong>5 et 10 jours ouvrés</strong> en France métropolitaine.</p>"
+          }
+        },
+        "item_ByyJJh": {
+          "type": "item",
+          "settings": {
+            "title": "Puis-je retourner le produit s’il ne me convient pas ?",
+            "content": "<p>Oui, vous avez <strong>30 jours pour changer d’avis</strong>, si le produit n’est pas ouvert.</p>"
           }
         }
       },
@@ -999,7 +1013,9 @@
         "item_fHkJMd",
         "item_mEVGQ4",
         "item_My4LjH",
-        "item_YLz8BD"
+        "item_YLz8BD",
+        "item_3x3LYf",
+        "item_ByyJJh"
       ],
       "settings": {
         "full_width": false,
