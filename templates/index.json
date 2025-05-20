@@ -664,8 +664,8 @@
         "heading_yQFyCG": {
           "type": "heading",
           "settings": {
-            "text": "Vraies Clientes,   Vrais Résultats",
-            "heading_tag": "h1",
+            "text": "Approuvé par des dermatologues,  Pensé pour votre peau",
+            "heading_tag": "h4",
             "text_color": "#2e4147",
             "gradient": ""
           }
@@ -686,174 +686,6 @@
         "text_color": ""
       }
     },
-    "rich_text_x4FrWC": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_HQUhtJ": {
-          "type": "heading",
-          "settings": {
-            "text": "Comment l'utiliser ?",
-            "heading_tag": "h2",
-            "text_color": "#2e4147",
-            "gradient": ""
-          }
-        },
-        "heading_rK97y4": {
-          "type": "heading",
-          "settings": {
-            "text": "3 étapes simples",
-            "heading_tag": "h4",
-            "text_color": "",
-            "gradient": ""
-          }
-        },
-        "heading_gxBiDc": {
-          "type": "heading",
-          "settings": {
-            "text": "C'est plus facile que vous ne le pensez!",
-            "heading_tag": "h3",
-            "text_color": "#2e4147",
-            "gradient": ""
-          }
-        }
-      },
-      "block_order": [
-        "heading_HQUhtJ",
-        "heading_rK97y4",
-        "heading_gxBiDc"
-      ],
-      "custom_css": [
-        ".section-full {padding-top: 30px; padding-bottom: 10px;}"
-      ],
-      "settings": {
-        "full_width": true,
-        "content_width": "small",
-        "text_position": "center",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
-    "howto_kenGkk": {
-      "type": "howto",
-      "blocks": {
-        "step_Tz3pE4": {
-          "type": "step",
-          "settings": {
-            "image": "shopify://shop_images/etape.jpg",
-            "title": "NETTOYER",
-            "description": "Nettoyez votre peau et retirez toute trace de maquillage.",
-            "alignment": "left"
-          }
-        },
-        "step_nLCmgz": {
-          "type": "step",
-          "settings": {
-            "image": "shopify://shop_images/etape2.jpg",
-            "title": "APPLIQUER",
-            "description": "Appliquez le masque une fois par semaine pendant 5 à 10 minutes..",
-            "alignment": "left"
-          }
-        },
-        "step_iqajVr": {
-          "type": "step",
-          "settings": {
-            "image": "shopify://shop_images/etape3.jpg",
-            "title": "REVITALISER & ADMIRER LES RÉSULTATS",
-            "description": "Laissez le silicone médical agir au cœur de vos cellules et profitez d’un vrai moment de bien-être.",
-            "alignment": "left"
-          }
-        }
-      },
-      "block_order": [
-        "step_Tz3pE4",
-        "step_nLCmgz",
-        "step_iqajVr"
-      ],
-      "custom_css": [
-        ".section-full {padding-top: 10px; padding-bottom: 10px;}"
-      ],
-      "settings": {}
-    },
-    "rich_text_He4Tya": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_cqyfkU": {
-          "type": "heading",
-          "settings": {
-            "text": "C'est Prouvé Scientifiquement",
-            "heading_tag": "h1",
-            "text_color": "#2e4147",
-            "gradient": ""
-          }
-        },
-        "heading_fJYdti": {
-          "type": "heading",
-          "settings": {
-            "text": "96%",
-            "heading_tag": "h2",
-            "text_color": "#466771",
-            "gradient": ""
-          }
-        },
-        "richtext_bDV4xX": {
-          "type": "richtext",
-          "settings": {
-            "content": "<h5>Constatent des <strong>résultats visibles </strong>après la <strong>première utilisation</strong></h5>"
-          }
-        },
-        "heading_z9dbP6": {
-          "type": "heading",
-          "settings": {
-            "text": "92%",
-            "heading_tag": "h2",
-            "text_color": "#466771",
-            "gradient": ""
-          }
-        },
-        "richtext_Be9g66": {
-          "type": "richtext",
-          "settings": {
-            "content": "<h5>Rapportent <strong>une peau raffermie </strong>et <strong>liftée </strong>sur le long terme</h5>"
-          }
-        },
-        "heading_hzJdcR": {
-          "type": "heading",
-          "settings": {
-            "text": "90%",
-            "heading_tag": "h2",
-            "text_color": "#466771",
-            "gradient": ""
-          }
-        },
-        "richtext_nXmndJ": {
-          "type": "richtext",
-          "settings": {
-            "content": "<h5>Remarquent une <strong>réduction significative </strong>de leur double menton après 21 jours</h5>"
-          }
-        }
-      },
-      "block_order": [
-        "heading_cqyfkU",
-        "heading_fJYdti",
-        "richtext_bDV4xX",
-        "heading_z9dbP6",
-        "richtext_Be9g66",
-        "heading_hzJdcR",
-        "richtext_nXmndJ"
-      ],
-      "custom_css": [
-        ".section-full {padding-top: 10px; padding-bottom: 10px;}"
-      ],
-      "settings": {
-        "full_width": true,
-        "content_width": "small",
-        "text_position": "center",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
     "image_with_text_overlay_g6YaAe": {
       "type": "image-with-text-overlay",
       "settings": {
@@ -861,7 +693,7 @@
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
-        "image": "shopify://shop_images/imagesimple2.png",
+        "image": "shopify://shop_images/imagedermato.png",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
@@ -1087,9 +919,6 @@
     "image_with_text_overlay_PBVp8d",
     "tabs_tikiTy",
     "rich_text_4hHW4w",
-    "rich_text_x4FrWC",
-    "howto_kenGkk",
-    "rich_text_He4Tya",
     "image_with_text_overlay_g6YaAe",
     "rich_text_G4Azwy",
     "faq",
