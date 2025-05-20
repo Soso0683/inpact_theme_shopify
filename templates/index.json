@@ -708,9 +708,9 @@
           "type": "item",
           "settings": {
             "column_size": "3",
-            "title": "Column title",
+            "title": "Émollient léger",
             "heading_tag": "h4",
-            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "content": "<p>Adoucit et lisse la peau</p>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -720,9 +720,9 @@
           "type": "item",
           "settings": {
             "column_size": "3",
-            "title": "Column title",
+            "title": "Huile minérale",
             "heading_tag": "h4",
-            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "content": "<p>Agent hydratant et protecteur</p>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -732,9 +732,57 @@
           "type": "item",
           "settings": {
             "column_size": "3",
-            "title": "Column title",
+            "title": "Extrait de feuille de Centella",
             "heading_tag": "h4",
-            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "content": "<p>Apaisant, réparateur</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_DErEd8": {
+          "type": "item",
+          "settings": {
+            "column_size": "3",
+            "title": "Acide hyaluronique",
+            "heading_tag": "h4",
+            "content": "<p>Hydrate intensément la peau</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_tCWk3t": {
+          "type": "item",
+          "settings": {
+            "column_size": "3",
+            "title": "Silicone émolliente",
+            "heading_tag": "h4",
+            "content": "<p>Rend la texture douce et soyeuse</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_iJCkrj": {
+          "type": "item",
+          "settings": {
+            "column_size": "3",
+            "title": "Dioxyde de titane",
+            "heading_tag": "h4",
+            "content": "<p>Filtre UV minéral (écran solaire)</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_Ca9M7G": {
+          "type": "item",
+          "settings": {
+            "column_size": "3",
+            "title": "Cire minérale",
+            "heading_tag": "h4",
+            "content": "<p>Stabilise la texture et améliore la tenue</p>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -744,7 +792,11 @@
       "block_order": [
         "item_Q88K6H",
         "item_cjLGyH",
-        "item_cyNmQJ"
+        "item_cyNmQJ",
+        "item_DErEd8",
+        "item_tCWk3t",
+        "item_iJCkrj",
+        "item_Ca9M7G"
       ],
       "name": "Multi-column",
       "settings": {
