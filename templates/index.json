@@ -655,9 +655,7 @@
         "video_NAw6qL",
         "video_wCez4r"
       ],
-      "custom_css": [
-        ".section-full {padding-top: 30px; padding-bottom: 0px;}"
-      ],
+      "custom_css": [],
       "name": "SS - Product Videos",
       "settings": {
         "videos_position": "above_description",
