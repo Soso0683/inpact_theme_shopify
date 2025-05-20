@@ -874,7 +874,7 @@
         "item_iJCkrj"
       ],
       "custom_css": [
-        ".section-full {padding-top: 20px; padding-bottom: 10px;}"
+        ".section-full {padding-top: 0px; padding-bottom: 10px;}"
       ],
       "name": "Multi-column",
       "settings": {
