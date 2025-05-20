@@ -557,40 +557,6 @@
         "input_text_color": ""
       }
     },
-    "image_with_text_overlay_PBVp8d": {
-      "type": "image-with-text-overlay",
-      "blocks": {
-        "subheading_XK4a8M": {
-          "type": "subheading",
-          "settings": {
-            "text": ""
-          }
-        },
-        "heading_wAUwew": {
-          "type": "heading",
-          "settings": {
-            "text": "La Meilleure façon de Sculpter votre visage",
-            "heading_tag": "h3"
-          }
-        }
-      },
-      "block_order": [
-        "subheading_XK4a8M",
-        "heading_wAUwew"
-      ],
-      "settings": {
-        "full_width": true,
-        "allow_transparent_header": false,
-        "enable_parallax": false,
-        "image_size": "auto",
-        "image": "shopify://shop_images/imagesimple.jpg",
-        "mobile_text_position": "place-self-center text-center",
-        "desktop_text_position": "sm:place-self-center sm:text-center",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 13
-      }
-    },
     "tabs_tikiTy": {
       "type": "tabs",
       "blocks": {
@@ -1037,7 +1003,6 @@
     "trustpilot_VdhhH4",
     "multi_column_DakR9i",
     "featured_product_yJHJTN",
-    "image_with_text_overlay_PBVp8d",
     "tabs_tikiTy",
     "rich_text_4hHW4w",
     "image_with_text_overlay_g6YaAe",
