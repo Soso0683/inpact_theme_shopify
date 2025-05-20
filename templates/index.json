@@ -619,19 +619,10 @@
         "text_color": ""
       }
     },
-    "troisvideos_DbgHaU": {
+    "troisvideos_cD9jm6": {
       "type": "troisvideos",
       "blocks": {
-        "video_z6cLLe": {
-          "type": "video",
-          "settings": {
-            "video": "shopify://files/videos/GIF.mp4",
-            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-            "modal_heading": "<h4>Modal Heading</h4>",
-            "modal_text": "<p>Modal Text</p>"
-          }
-        },
-        "video_WjqBEt": {
+        "video_x3XmJF": {
           "type": "video",
           "settings": {
             "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
@@ -639,7 +630,7 @@
             "modal_text": "<p>Modal Text</p>"
           }
         },
-        "video_EFrJeB": {
+        "video_NAw6qL": {
           "type": "video",
           "settings": {
             "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
@@ -647,7 +638,7 @@
             "modal_text": "<p>Modal Text</p>"
           }
         },
-        "video_MfaeVb": {
+        "video_wCez4r": {
           "type": "video",
           "settings": {
             "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
@@ -655,7 +646,15 @@
             "modal_text": "<p>Modal Text</p>"
           }
         },
-        "video_kBXmEW": {
+        "video_MqBGXr": {
+          "type": "video",
+          "settings": {
+            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "modal_heading": "<h4>Modal Heading</h4>",
+            "modal_text": "<p>Modal Text</p>"
+          }
+        },
+        "video_P4X6kw": {
           "type": "video",
           "settings": {
             "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
@@ -665,11 +664,11 @@
         }
       },
       "block_order": [
-        "video_z6cLLe",
-        "video_WjqBEt",
-        "video_EFrJeB",
-        "video_MfaeVb",
-        "video_kBXmEW"
+        "video_x3XmJF",
+        "video_NAw6qL",
+        "video_wCez4r",
+        "video_MqBGXr",
+        "video_P4X6kw"
       ],
       "name": "SS - Product Videos",
       "settings": {
@@ -744,34 +743,34 @@
         "modal_text_align": "center",
         "modal_text_align_mobile": "center",
         "modal_text_mt": 16,
-        "card_bg_color": "#ffffff",
+        "card_bg_color": "#FFFFFF",
         "card_border_color": "#000000",
         "card_shadow_color": "#000000",
         "video_overlay_color": "#000000",
         "icon_bg_color": "#000000",
-        "icon_border_color": "#ffffff",
-        "icon_color": "#ffffff",
-        "arrow_bg_color": "#ffffff",
-        "arrow_bg_hover_color": "#ffffff",
+        "icon_border_color": "#FFFFFF",
+        "icon_color": "#FFFFFF",
+        "arrow_bg_color": "#FFFFFF",
+        "arrow_bg_hover_color": "#FFFFFF",
         "arrow_border_color": "#000000",
         "arrow_border_hover_color": "#000000",
         "arrow_icon_color": "#1c1c1c",
         "arrow_icon_hover_color": "#1c1c1c",
-        "modal_bg_color": "#ffffff",
+        "modal_bg_color": "#FFFFFF",
         "modal_border_color": "#000000",
-        "close_bg_color": "#ffffff",
+        "close_bg_color": "#FFFFFF",
         "close_border_color": "#000000",
-        "close_icon_color": "#ffffff",
-        "buttons_bg_color": "#ffffff",
+        "close_icon_color": "#FFFFFF",
+        "buttons_bg_color": "#FFFFFF",
         "buttons_border_color": "#000000",
-        "buttons_icon_color": "#ffffff",
+        "buttons_icon_color": "#FFFFFF",
         "modal_video_border_color": "#000000",
-        "modal_content_bg_color": "#ffffff",
+        "modal_content_bg_color": "#FFFFFF",
         "modal_content_border_color": "#000000",
         "modal_heading_color": "#000000",
         "modal_text_color": "#000000",
         "heading_color": "#000000",
-        "background_color": "#ffffff",
+        "background_color": "#FFFFFF",
         "background_gradient": "",
         "border_color": "#000000",
         "margin_top": 0,
@@ -1165,7 +1164,7 @@
     "featured_product_yJHJTN",
     "tabs_tikiTy",
     "custom_liquid_QqXy8c",
-    "troisvideos_DbgHaU",
+    "troisvideos_cD9jm6",
     "multi_column_Lbk6Gj",
     "rich_text_4hHW4w",
     "image_with_text_overlay_g6YaAe",
