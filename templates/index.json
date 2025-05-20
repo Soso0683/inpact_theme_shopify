@@ -560,27 +560,11 @@
     "tabs_tikiTy": {
       "type": "tabs",
       "blocks": {
-        "tab_MHFViU": {
-          "type": "tab",
-          "settings": {
-            "title": "Le pouvoir du Silicone Médical",
-            "content": "<p>Ce masque crée un micro-climat apaisant qui enveloppe votre peau. Le <strong>silicone de qualité médicale </strong>hydrate en profondeur, raffermit la peau et offre une sensation de détente immédiate.<br/></p>",
-            "page": ""
-          }
-        },
-        "tab_7rjEMT": {
-          "type": "tab",
-          "settings": {
-            "title": "Un Raffermissement Naturel et Doux",
-            "content": "<p>Comme une caresse ferme, il <strong>sculpte et redessine</strong> les contours du visage tout en réduisant votre double menton. <strong>Résultat : </strong>une mâchoire plus fine, un visage plus net, sans effort.<br/><br/>En améliorant la microcirculation, il <strong>booste le renouvellement cellulaire</strong>, ravive l’éclat de la peau et favorise une meilleure absorption des soins.</p>",
-            "page": ""
-          }
-        },
         "tab_tyhmCN": {
           "type": "tab",
           "settings": {
-            "title": "Un Coup de Pouce au Collagène",
-            "content": "<p>Il stimule naturellement la production de <strong>collagène</strong>, essentiel pour maintenir une peau ferme, tonique et visiblement plus jeune.</p>",
+            "title": "Composition de notre Stick Velynea",
+            "content": "<p>Notre <strong>Stick Solaire Velynea</strong> est formulé avec des <strong>ingrédients soigneusement sélectionnés</strong> pour allier efficacité, confort et tolérance.</p><p>💧 <strong>Acide hyaluronique</strong> : hydrate intensément la peau tout en renforçant sa barrière naturelle.<br/><br/>🌿 <strong>Extrait de Centella Asiatica</strong> : reconnu pour ses propriétés apaisantes et réparatrices, idéal pour les peaux sensibles.<br/><br/>☀️ <strong>Dioxyde de titane</strong> : filtre minéral qui protège efficacement des UVA et UVB.<br/><br/>✨ <strong>Isononyl isononanoate & huile minérale</strong> : adoucissent la peau et assurent une application invisible et non collante.<br/><br/>🔬 <strong>Ozokérite & silicones douces</strong> : assurent une texture agréable et une tenue longue durée, même sous l’eau.</p><p>Sans parfum et testé dermatologiquement, ce stick est adapté à <strong>toute la famille</strong> et <strong>tous les types de peau</strong>.</p>",
             "page": ""
           }
         },
@@ -602,8 +586,6 @@
         }
       },
       "block_order": [
-        "tab_MHFViU",
-        "tab_7rjEMT",
         "tab_tyhmCN",
         "tab_4br3iG",
         "tab_nUWi9g"
