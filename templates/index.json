@@ -488,7 +488,7 @@
           "settings": {
             "image": "shopify://shop_images/offre-removebg-preview_2.png",
             "alignment": "center",
-            "max_width": 340
+            "max_width": 500
           }
         },
         "essential_countdown_app_block_k6xxGV": {
