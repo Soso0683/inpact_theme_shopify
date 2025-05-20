@@ -746,6 +746,7 @@
         "item_DErEd8": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/ChatGPT_Image_20_mai_2025_16_55_55.png",
             "column_size": "3",
             "title": "Acide hyaluronique",
             "heading_tag": "h4",
