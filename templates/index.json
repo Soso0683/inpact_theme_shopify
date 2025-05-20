@@ -362,9 +362,9 @@
           "settings": {
             "image": "shopify://shop_images/suntrust8.jpg",
             "column_size": "3",
-            "title": "Column title",
+            "title": "Sofia M.",
             "heading_tag": "h4",
-            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "content": "<p>Je l’ai pris pour partir au soleil, mais je l’utilise aussi quand je sors le midi. Il ne bouge pas dans mon sac et ne fait pas briller. Très bon produit.</p>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -424,7 +424,7 @@
         "full_width": true,
         "stack_on_mobile": false,
         "gap": "medium",
-        "text_alignment": "start",
+        "text_alignment": "center",
         "subheading": "",
         "title": "",
         "content": "",
