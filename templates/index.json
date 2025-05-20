@@ -913,29 +913,29 @@
         "166442457738b23caf-0": {
           "type": "item",
           "settings": {
-            "title": "Les masques Velynea™ sont-ils compatible avec tous les types depeaux ?",
-            "content": "<p>Le silicone medical <strong>s'adapte automatiquement à votre peau,</strong>les masques Chinology™ sont compatibles pour toutes les femmes et tous les types de peau.<br/><br/>Si vous voulez les meilleurs résultats,<strong>nous vous recommandons de l'appliquer deux fois par semaine</strong>afin d'obtenir des résultats encore plus visibles!<br/></p>"
+            "title": "Le Stick Solaire Velynea, c'est quoi ?",
+            "content": "<p>Le Stick Solaire Velynea protège la peau contre les UVA et UVB grâce à sa formule SPF 50+, dans un format pratique à emporter partout.</p>"
           }
         },
         "166442457738b23caf-1": {
           "type": "item",
           "settings": {
-            "title": "Combien de fois puis-je réutiliserun masque Velynea™ ?",
-            "content": "<p>Chaque masque Velynea™ <strong>est conçu pour être utilisé jusqu'à 10 fois</strong>, ce qui en fait un choix économique et durable.</p><p>Contrairement aux produits à usage unique, vous pouvez profiter des bienfaits du masque sur<strong> plusieurs séances.</strong></p><p>Suivez simplement les instructions, et <strong>votre masque restera efficace à chaque utilisation!</strong></p>"
+            "title": "Est-ce que le stick laisse des traces blanches ?",
+            "content": "<p>Non, sa texture fondante est invisible sur la peau. Aucun effet blanc, même sur les peaux mates.</p>"
           }
         },
         "166442457738b23caf-2": {
           "type": "item",
           "settings": {
-            "title": "Comment fonctionnent les masques Velynea™ ?",
-            "content": "<p>Lorsque le masque Velynea™ est appliqué sur la peau, le silicone médical crée un micro-climat entre le masque et la peau.</p><p>Deux bénéfices se produisent:</p><p>-<strong>Les cellules se régénèrent:</strong>Les cellules régénératrices des couches inférieures de la peau remontent vers les couches supérieures pour réparer la peau.</p><p>-<strong>La circulation sanguine est stimulée:</strong>la compression du masque active la microcirculation pour purifier et revitaliser la peau.</p><p>Le silicone médical agit au cœur des cellules pour garantir un résultat instantané et durable.<br/><br/></p>"
+            "title": "Sur quelles zones peut-on l’appliquer ?",
+            "content": "<p>Il est conçu pour le <strong>visage, le corps et les lèvres</strong>. Idéal pour les zones sensibles comme le nez, le front ou les épaules.</p>"
           }
         },
         "item_a7pEQb": {
           "type": "item",
           "settings": {
-            "title": "Le Masque Velynea™ est-il cher ?",
-            "content": "<p><strong>“29,90€, ça me semble trop cher pour un masque. Le masque Velynea™ est-il cher ?”</strong></p><p>Absolument pas! Parce que <strong>chaque masque Velynea™ est réutilisable jusqu'à 10 fois.</strong></p><p>Grâce à notre promotion actuelle de 50%, son prix n'est que de 29,90€, soit <strong>2.99€ par utilisation</strong>, ce qui est plus abordable que la plupart des masques classiques.</p><p>Et si vous optez pour <strong>plusieurs packs</strong>, vous économisez <strong>jusqu'à 70%</strong>!</p><p>Velynea™ devient une solution <strong>plus économique et plus sûre </strong>pour se débarrasser du double menton, que la chirurgie ou les injections, qui coûtent souvent plus de 2000€.</p>"
+            "title": "Est-il parfumé ?",
+            "content": "<p>Non, le stick est <strong>sans parfum</strong>, pour convenir à toutes les peaux, même sensibles.</p>"
           }
         },
         "item_ATazMb": {
@@ -972,12 +972,12 @@
         "button_text": "",
         "button_url": "",
         "text_position": "start",
-        "background": "#f0f0f0",
+        "background": "#ebf2fa",
         "background_gradient": "",
         "text_color": "",
         "heading_color": "",
         "heading_gradient": "",
-        "button_background": "",
+        "button_background": "#ffffff",
         "button_text_color": "",
         "accordion_background": "",
         "accordion_text_color": ""
