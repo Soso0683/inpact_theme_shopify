@@ -347,6 +347,7 @@
         "item_4EHRcE": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/suntrust9.jpg",
             "column_size": "3",
             "title": "Column title",
             "heading_tag": "h4",
@@ -359,6 +360,7 @@
         "item_QzKGgN": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/suntrust8.jpg",
             "column_size": "3",
             "title": "Column title",
             "heading_tag": "h4",
@@ -369,6 +371,32 @@
           }
         },
         "item_KkHKbf": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/suntrust7.jpg",
+            "column_size": "3",
+            "title": "Column title",
+            "heading_tag": "h4",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_cC8Gfa": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/suntrust1_83286905-0250-4115-8074-4af98bf543dc.jpg",
+            "column_size": "3",
+            "title": "Column title",
+            "heading_tag": "h4",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_A7CzWF": {
           "type": "item",
           "settings": {
             "column_size": "3",
@@ -384,7 +412,9 @@
       "block_order": [
         "item_4EHRcE",
         "item_QzKGgN",
-        "item_KkHKbf"
+        "item_KkHKbf",
+        "item_cC8Gfa",
+        "item_A7CzWF"
       ],
       "custom_css": [
         ".section-full {padding-top: 0px; padding-bottom: 30px;}"
